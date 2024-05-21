@@ -1,0 +1,2367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make My Trip</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link rel="stylesheet" type="text/css" href="holidayPackage.css">
+    <script src="https://kit.fontawesome.com/80e57cfd3a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header
+        style="background: linear-gradient(to top,rgb(20,67,121),rgb(6,20,36),rgb(12,45,82)); height:488px; width:100%;">
+
+        <nav class="navigationBar">
+            <div>
+                <img src="https://imgak.mmtcdn.com/pwa_v3/pwa_hotel_assets/header/logo@2x.png" alt="Make My Trip"
+                    height=36px; width=113px style="margin-left: 150px;">
+                <div class="deals" style="margin-left: 30px;">
+                    <div id='navigations' style="width:30%;">
+                        <div style="margin-right: 20px;">
+                            <a href="index.html"><i class="fa-solid fa-plane-departure"></i>
+                                <div style="font-size: 14px;">Flights</div>
+                            </a>
+
+                        </div>
+                        <div style="margin-right: 10px;">
+                            <a href="hotels.html"> <i class="fa-solid fa-hotel"></i>
+                                <div style="font-size: 14px;">Hotels</div>
+                            </a>
+
+                        </div>
+                        <div>
+                            <a href="homestays.html"><i class="fa-solid fa-house"></i>
+                                <div style="font-size: 14px;">Homestays & Villas</div>
+                            </a>
+
+                        </div>
+                        <div style="margin-left: -10px;">
+                            <a href="holidayPackage.html"><i class="fa-solid fa-umbrella-beach"></i>
+                                <div style="font-size: 14px;">Holiday Packages</div>
+                            </a>
+
+                        </div>
+
+                    </div>
+                    <div class="superOffers" style="margin-left: 100px;">
+                        <img style='margin-top:10px;' height="30px" width="30px"
+                            src="https://cdn.iconscout.com/icon/premium/png-256-thumb/special-offers-2667400-2212388.png?f=webp">
+                        <div style="margin-top: -8px; padding-left: 3px;">
+                            <p style="font-size: 14px; margin-bottom: 0;"><b>Super Offers</b></p>
+                            <p style="font-size: 12px; margin-top: 2px;">Explore great deals & offers</p>
+                        </div>
+                    </div>
+                    <div class="superOffers">
+                        <img style='margin-top:10px;' height="30px" width="30px"
+                            src="https://imgak.mmtcdn.com/mybiz/assets/images/mybizlogo.png">
+                        <div style="margin-top: -8px; padding-left: 3px;">
+                            <p style="font-size: 14px; margin-bottom: 0;"><b>Super Offers</b></p>
+                            <p style="font-size: 12px; margin-top: 2px;">Explore great deals & offers</p>
+                        </div>
+                    </div>
+
+
+                    <button
+                        style="background:linear-gradient(to right,rgb(71,165,252),rgb(12,97,243)); margin-top:10px; height:fit-content;padding:5px;color:white; font-weight: bold; border-radius: 3px; font-size: 10px;">
+                        <img height="20px" width="20px"
+                            src="https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/6e/88/3f/6e883f47-39bb-e723-d481-cb12e7aa5787/AppIcon-1x_U007emarketing-0-5-0-85-220.png/1200x600wa.png">
+                        Login or Create Account</button>
+
+
+                    <p
+                        style="background-color:rgb(43,55,69); margin-top:10px; padding: 10px; color:white;font-size:12px;">
+                        IN |ENG|INR</p>
+
+                </div>
+            </div>
+
+        </nav>
+
+        <div class="card" id='navigations'>
+            <div>
+                <a href="index.html"><i class="fa-solid fa-plane-departure fa-2x"></i>
+                    <div>Flights</div>
+                </a>
+
+            </div>
+            <div>
+                <a href="hotels.html"> <i class="fa-solid fa-hotel fa-2x"></i>
+                    <div>Hotels</div>
+                </a>
+
+            </div>
+            <div>
+                <a href="homestays.html"><i class="fa-solid fa-house fa-2x"></i>
+                    <div>Homestays & Villas</div>
+                </a>
+
+            </div>
+            <div>
+                <a href="holidayPackage.html"><i class="fa-solid fa-umbrella-beach fa-2x"></i>
+                    <div>Holiday Packages</div>
+                </a>
+
+            </div>
+
+        </div>
+        <div class="card targetBlock">
+            <ul>
+                <li><i class="fa-solid fa-magnifying-glass" style="margin-right:5px; margin-top:5px;"></i><a
+                        href='#search'>Search</a></li>
+                <li style="border-left: 1px solid rgb(216,216,216);"><img
+                        src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/1328/Stunning%20Sinquerim%20Beach.jpg"
+                        alt="" height="24px" width="24px" style="border-radius: 50%;"><a href='#payLater'>Buy Now, Pay
+                        Later</a></li>
+                <li style="border-left: 1px solid rgb(216,216,216);"><img
+                        src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/3891/Sangla_Ajay%20Jain.jpg"
+                        alt="" height="24px" width="24px" style="border-radius: 50%;"><a href='#honeymoon'>Honeymoon</a>
+                </li>
+                <li style="border-left: 1px solid rgb(216,216,216);"><img
+                        src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/1328/Stunning%20Sinquerim%20Beach.jpg"
+                        alt="" height="24px" width="24px" style="border-radius: 50%;"><a href='#villas'>Villas</a></li>
+                <li style="border-left: 1px solid rgb(216,216,216);"><img
+                        src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/1993/beach-seashore-maldives.jpg"
+                        alt="" height="24px" width="24px" style="border-radius: 50%;"><a href='#easyVisa'>Easy Visa
+                        Destinations</a></li>
+            </ul>
+
+            <div id="payLater">
+                <div class="payLater">
+                    <h4 style="padding-left: 20px;">Lock-Price for Oct-Dec Travel</h4>
+                    <ul>
+                        <li>Goa</li>
+                        <li>Kashmir</li>
+                        <li>Kerela</li>
+                        <li>North East</li>
+                        <li>Thailand</li>
+                    </ul>
+                    <div class="payLaterContent">
+                        <div class="cityNamespayLater">
+                            <img src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/1328/Stunning%20Sinquerim%20Beach.jpg"
+                                alt="">
+                            <h4>Goa</h4>
+                        </div>
+
+                        <div class="cityNamespayLater">
+                            <img src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/1257/1200x658_Kumarakom2.jpg?"
+                                alt="">
+                            <h4>Kerela</h4>
+                        </div>
+
+                        <div class="cityNamespayLater">
+                            <img src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/3052/Beautiful%20tropical%20beach%20in%20Thailand.jpg?"
+                                alt="">
+                            <h4>Thailand</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="honeymoon">
+                <div class="payLater">
+                    <h4 style="padding-left: 20px;">MakeMyTrip Homeymoon Packages</h4>
+                    <ul>
+                        <li>Goa</li>
+                        <li>Kashmir</li>
+                        <li>Kerela</li>
+                        <li>North East</li>
+                        <li>Thailand</li>
+                    </ul>
+
+                    <ul style="margin-right:20px">
+                        <li>Maldives</li>
+                        <li>Bali</li>
+                        <li>Thailand</li>
+                        <li>View All</li>
+                        <li>Thailand</li>
+                    </ul>
+                    <div class="payLaterContent" style="margin-left: 100px;">
+                        <div class="cityNamespayLater">
+                            <img src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/1328/Couple%20posing%20against%20the%20scenic%20beauty%20of%20Goa.jpg?"
+                                alt="">
+                            <h4>Goa</h4>
+                        </div>
+
+                        <div class="cityNamespayLater">
+                            <img src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/1339/Romantic%20beach%20getaways.jpg?"
+                                alt="">
+                            <h4>Andaman</h4>
+                        </div>
+
+                        <div class="cityNamespayLater">
+                            <img src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/1993/Suvadiva%20Dive%20Centre%203.jpg"
+                                alt="">
+                            <h4>Maldives</h4>
+                        </div>
+
+                        <div class="cityNamespayLater">
+                            <img src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/phonixImages/MicrosoftTeams-image%20(18).png"
+                                alt="">
+                            <h4>View All</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="villas">
+                <div class="payLater">
+                    <h4 style="padding-left: 20px;">Holiday Packages with Villas</h4>
+                    <ul>
+                        <li>Goa</li>
+                        <li>Kashmir</li>
+                        <li>Kerela</li>
+                        <li>North East</li>
+                        <li>Thailand</li>
+                    </ul>
+
+                    <ul style="margin-right:20px">
+                        <li>Maldives</li>
+                        <li>Bali</li>
+                        <li>Thailand</li>
+                        <li>View All</li>
+                        <li>Thailand</li>
+                    </ul>
+                    <div class="payLaterContent" style="margin-left: 100px;">
+                        <div class="cityNamespayLater">
+                            <img src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/1328/elivaas%20celest.jpg?"
+                                alt="">
+                            <h4>Goa</h4>
+                        </div>
+
+                        <div class="cityNamespayLater">
+                            <img src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/1329/Shimla.jpg?"
+                                alt="">
+                            <h4>Himachal Pradesh</h4>
+                        </div>
+
+                        <div class="cityNamespayLater">
+                            <img src="https://r1imghtlak.mmtcdn.com/6359758661f911eab6ee0242ac11000d.jfif?&downsize=900:675&crop=900:675;220,0&output-format=jpg?"
+                                alt="">
+                            <h4>Maharastra</h4>
+                        </div>
+
+                        <div class="cityNamespayLater">
+                            <img src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/1325/Udaipur-city-palace-on-the-lake-Pichola.jpg?"
+                                alt="">
+                            <h4>Rajasthan</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="easyVisa">
+                <div class="payLater">
+                    <p style="margin-left: 10px;">Visa On Arrival</p>
+                    <ul>
+                        <li>Goa</li>
+                        <li>Kashmir</li>
+                        <li>Kerela</li>
+                        <li>North East</li>
+                        <li>Thailand</li>
+                    </ul>
+
+                    <ul style="margin-right:20px">
+                        <li>Maldives</li>
+                        <li>Bali</li>
+                        <li>Thailand</li>
+                        <li>View All</li>
+                        <li>Thailand</li>
+                    </ul>
+                    <div class="payLaterContent" style="margin-left: 100px;">
+                        <div class="cityNamespayLater">
+                            <img src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/1404/Pura-Ulun-Danu-temple.jpg?"
+                                alt="">
+                            <h4>Bali</h4>
+                        </div>
+
+                        <div class="cityNamespayLater">
+                            <img src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/2887/Colombo2.jpg?"
+                                alt="">
+                            <h4>SriLanka</h4>
+                        </div>
+
+                        <div class="cityNamespayLater">
+                            <img src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/6555/phuket11.jpg?"
+                                alt="">
+                            <h4>Thailand</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="search" class="default">
+                <div>
+                    <div class="SearchBox">
+                        <div>
+                            <p>From City</p>
+                            <h2>New Delhi</h2>
+                            <p style="margin-top: -19px;">India</p>
+                        </div>
+                        <div style="border-left: 1px solid rgb(216,216,216);">
+                            <p>To City/Country/Category</p>
+                            <h2>Goa</h2>
+                        </div>
+                        <div style="border-left: 1px solid rgb(216,216,216);">
+                            <p>Departure Date</p>
+                            <h4>Select Date</h4>
+                        </div>
+                        <div style="border-left: 1px solid rgb(216,216,216);">
+                            <p>Rooms & Guests</p>
+                            <h4>Select Roogms</h4>
+                        </div>
+                        <div style="border-left: 1px solid rgb(216,216,216);">
+                            <p>Filters</p>
+                            <h4>Select Filter(Optional)</h4>
+                        </div>
+                    </div>
+                    <p style="text-align: end;">Holiday Packages</p>
+                    <button
+                        style="margin-left:35%;  position: absolute; background:linear-gradient(to right,rgb(71,165,252),rgb(12,97,243)); color:white; font-weight: bold; border-radius: 40px; font-size: 24px; border: none; padding-left: 40px; padding-right: 40px; padding-top: 10px; padding-bottom: 10px;">SEARCH</button>
+                </div>
+
+            </div>
+
+        </div>
+    </header>
+    <main>
+        <section id="carousel">
+            <div id="frame">
+                <input type="radio" name="frame" id="frame1" checked />
+                <input type="radio" name="frame" id="frame2" />
+                <input type="radio" name="frame" id="frame3" />
+                <input type="radio" name="frame" id="frame4" />
+                <input type="radio" name="frame" id="frame5" />
+                <input type="radio" name="frame" id="frame6" />
+                <input type="radio" name="frame" id="frame7" />
+                <input type="radio" name="frame" id="frame8" />
+                <div id="slides">
+                    <div id="overflow">
+                        <div class="inner">
+
+                            <div class="frame">
+                                <img
+                                    src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/heroBannerImages/Holidays-Villa-Hero-banner-desktop.jpg?crop=1200:320&downsize=1200:320">
+                            </div>
+                            <div class="frame">
+                                <img
+                                    src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/heroBannerImages/Azerbaijan-1200x320-22Aug.jpg?crop=1200:320&downsize=1200:320">
+                            </div>
+                            <div class="frame">
+                                <img
+                                    src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/heroBannerImages/HoneyPackages_1200x320_23Jan.jpg?crop=1200:320&downsize=1200:320">
+                            </div>
+                            <div class="frame">
+                                <img
+                                    src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/heroBannerImages/Ayodhya_Hero1200x320_09OctFinal.jpg?crop=1200:320&downsize=1200:320">
+                            </div>
+                            <div class="frame">
+                                <img
+                                    src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/heroBannerImages/RailCrossSell.png?crop=1200:320&downsize=1200:320">
+                            </div>
+                            <div class="frame">
+                                <img
+                                    src="https://platforms.makemytrip.com/contents/ad1bd5f2-82ed-4af5-a786-74915b662b28">
+                            </div>
+                            <div class="frame">
+                                <img
+                                    src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/heroBannerImages/Cruise-desktop-HB.jpg?crop=1200:320&downsize=1200:320">
+                            </div>
+                            <div class="frame">
+                                <img
+                                    src="https://platforms.makemytrip.com/contents/b1737f6a-e19e-4d32-a311-b6309e755dbc">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="controls">
+                    <label for="frame1"></label>
+                    <label for="frame2"></label>
+                    <label for="frame3"></label>
+                    <label for="frame4"></label>
+                    <label for="frame5"></label>
+                    <label for="frame6"></label>
+                    <label for="frame7"></label>
+                    <label for="frame8"></label>
+                </div>
+                <div id="bullets">
+                    <label for="frame1"></label>
+                    <label for="frame2"></label>
+                    <label for="frame3"></label>
+                    <label for="frame4"></label>
+                    <label for="frame5"></label>
+                    <label for="frame6"></label>
+                    <label for="frame7"></label>
+                    <label for="frame8"></label>
+                </div>
+            </div>
+        </section>
+        <!-- ad -->
+        <section id="ad">
+            <img src="https://platforms.makemytrip.com/contents/b605b631-f177-4732-a5bc-bee331e120eb" alt="ads by mmt"
+                style="width:60%;margin-left:20%;margin-right:20%;margin-top:20px;margin-bottom:20px;border-radius: 16px;">
+        </section>
+
+        <!-- special deals -->
+        <section id="specialDeals">
+            <div class="card">
+                <h2 style="margin-bottom: 2px;">Special Deal Is Live Now</h2>
+                <p style="font-size: 16px; margin-top: 2px;">Grab Flat 30% Off! Use Code LUCKY15</p>
+                <div id="city">
+                    <div class="cityName">
+                        <img src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/4945/backwater-allepey.jpg?crop=134:207&amp;downsize=134:207"
+                            alt="">
+                        <div class="cityDetails">
+                            <p style="font-weight: bold;">Kerela</p>
+                            <p>Starting at &#8377;8,900 Per person</p>
+                        </div>
+                    </div>
+                    <div class="cityName">
+                        <img src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/1328/Stunning%20Sinquerim%20Beach.jpg?crop=134:207&amp;downsize=134:207"
+                            alt="">
+                        <div class="cityDetails">
+                            <p style="font-weight: bold;">Goa Sale is Live</p>
+                            <p>Starting at &#8377;5,900 Per person</p>
+                        </div>
+                    </div>
+                    <div class="cityName">
+                        <img src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/6555/phuket11.jpg?crop=134:207&amp;downsize=134:207"
+                            alt="">
+                        <div class="cityDetails">
+                            <p style="font-weight: bold;">Thailand</p>
+                            <p>Starting at &#8377;8,400 Per person</p>
+                        </div>
+                    </div>
+                    <div class="cityName">
+                        <img src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/3766/Picturesque%20view%20of%20snow-covered%20hills%20in%20Gulmarg.jpeg?crop=134:207&amp;downsize=134:207"
+                            alt="">
+                        <div class="cityDetails">
+                            <p style="font-weight: bold;">Kashmir</p>
+                            <p>Starting at &#8377;5,000 Per person</p>
+                        </div>
+                    </div>
+                    <div class="cityName">
+                        <img src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/1993/Aerial%20view%20of%20Iru%20Fushi.jpg?crop=134:207&amp;downsize=134:207"
+                            alt="">
+                        <div class="cityDetails">
+                            <p style="font-weight: bold;">Maldives</p>
+                            <p>Starting at &#8377;38,600 Per person</p>
+                        </div>
+                    </div>
+                    <div class="cityName">
+                        <img src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/4194/Explore%20the%20offbeat%20Kinnaur%20region.jpg?crop=134:207&amp;downsize=134:207"
+                            alt="">
+                        <div class="cityDetails">
+                            <p style="font-weight: bold;">Himachal</p>
+                            <p>Starting at &#8377;3,300 Per person</p>
+                        </div>
+                    </div>
+                    <div class="cityName">
+                        <img src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/1339/Port-Blair%20Andaman.jpg?crop=134:207&amp;downsize=134:207"
+                            alt="">
+                        <div class="cityDetails">
+                            <p style="font-weight: bold;">Andaman</p>
+                            <p>Starting at &#8377;11,100 Per person</p>
+                        </div>
+                    </div>
+                    <div class="cityName">
+
+                        <img src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/1215/Gangtok1.jpg?crop=134:207&amp;downsize=134:207"
+                            alt="">
+                        <div class="cityDetails">
+                            <p style="font-weight: bold;">North-East</p>
+                            <p>Starting at &#8377;8,400 Per person</p>
+                        </div>
+                    </div>
+                    <div class="cityName">
+                        <img src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/1252/Beautiful%20view%20of%20the%20green%20valley.jpg?crop=134:207&amp;downsize=134:207"
+                            alt="">
+                        <div class="cityDetails">
+                            <p style="font-weight: bold;">Coorg/Ooty</p>
+                            <p>Starting at &#8377;5,100 Per person</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- jackpot deals -->
+        <section id="jackpotDeals">
+            <div class="card">
+                <h2 style="margin-bottom: 2px;">Jackpot Deals on Top Selling Packages</h2>
+                <p style="font-size: 16px; margin-top:2px;">Save extra with our exclusive deals!</p>
+                <div id="city">
+                    <div class="cityName">
+                        <img src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/3052/Beautiful%20tropical%20beach%20in%20Thailand.jpg?crop=134:207&amp;downsize=134:207"
+                            alt="">
+                        <div class="cityDetails">
+                            <p style="font-weight: bold;">Thailand 5N</p>
+                        </div>
+                    </div>
+                    <div class="cityName">
+                        <img src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/1328/ZF.jpg?crop=134:207&amp;downsize=134:207"
+                            alt="">
+                        <div class="cityDetails">
+                            <p style="font-weight: bold;">Goa 4N</p>
+                        </div>
+                    </div>
+                    <div class="cityName">
+                        <img src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/1369/Verdant%20tea%20plantations%20of%20Munnar.jpg?crop=134:207&amp;downsize=134:207"
+                            alt="">
+                        <div class="cityDetails">
+                            <p style="font-weight: bold;">Kerela 4N</p>
+                        </div>
+                    </div>
+                    <div class="cityName">
+                        <img src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/1404/Pura-Ulun-Danu-temple.jpg?crop=134:207&amp;downsize=134:207"
+                            alt="">
+                        <div class="cityDetails">
+                            <p style="font-weight: bold;">Bali 6N</p>
+                        </div>
+                    </div>
+                    <div class="cityName">
+                        <img src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/4308/Houseboat%20on%20Dal%20Lake.jpg?crop=134:207&amp;downsize=134:207"
+                            alt="">
+                        <div class="cityDetails">
+                            <p style="font-weight: bold;">Kashmir 5N</p>
+                        </div>
+                    </div>
+                    <div class="cityName">
+                        <img src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/1185/Zanskar.jpg?crop=134:207&amp;downsize=134:207"
+                            alt="">
+                        <div class="cityDetails">
+                            <p style="font-weight: bold;">Ladakh 5N</p>
+                        </div>
+                    </div>
+                    <div class="cityName">
+                        <img src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/3736/Yen-stream-in-Autumn.jpg?crop=134:207&amp;downsize=134:207"
+                            alt="">
+                        <div class="cityDetails">
+                            <p style="font-weight: bold;">Vietnam 6N</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- explore holiday -->
+        <section id="exploreHoliday">
+            <div class="card">
+                <div class="exploreHolidayContainer">
+                    <div class="imageClass">
+                        <img
+                            src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/phonixImages/CategorySectionv2.png">
+                        <div class="imageContent" style="color:rgb(119,61,60)">
+                            <p>EXPLORE</p>
+                            <P style="font-weight: bold; font-size: 48px;">HOLIDAYS</P>
+                            <p>BY THEME</p>
+                            <p>Pick from our specially curated <br>packages</p>
+                        </div>
+                    </div>
+
+                    <div class="cards">
+                        <DIV class="card"><img
+                                src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/phonixImages/Honeymoon_category.jpg?crop=188:139&amp;downsize=188:139"
+                                alt="">
+                            <p>HONEYMOON</p>
+                            <ul>
+                                <li>Beaches</li>
+                                <li>Hill Vacays</li>
+                                <li>Adventure</li>
+                                <li>City Escapes</li>
+                            </ul>
+                            <p style="color:rgb(0,140,255);">VIEW MORE</p>
+                        </DIV>
+                        <DIV class="card">
+                            <img src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/1381/Varanasi.jpg?crop=188:139&amp;downsize=188:139"
+                                alt="">
+                            <p>PILGRIMAGE</p>
+                            <ul>
+                                <li>Ayodhya</li>
+                                <li>Varanasi</li>
+                                <li>Gujarat</li>
+                                <li>Vaishno Devi</li>
+                            </ul>
+                            <p style="color:rgb(0,140,255);">VIEW MORE</p>
+                        </DIV>
+                        <DIV class="card">
+                            <img src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/1240/Ranthambore-Family-Getaway-21102016.jpg?crop=188:139&amp;downsize=188:139"
+                                alt="">
+                            <p>WILDESCAPES</p>
+                            <ul>
+                                <li>Ranthambhore</li>
+                                <li>Corbett</li>
+                                <li>Bandhavgarh</li>
+                                <li>Kanha</li>
+                            </ul>
+                            <p style="color:rgb(0,140,255);">VIEW MORE</p>
+                        </DIV>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- international -->
+        <section id="international">
+            <div class="card">
+                <h2 style="margin-bottom: 2px;">International Destinations!</h2>
+                <div id="city1">
+                    <div class="cityName1">
+                        <img src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/3198/shutterstock_176887880.jpg?crop=156:227&amp;downsize=156:227"
+                            alt="dp">
+                        <div class="cityDetails1">
+                            <p style="font-weight: bolder; font-size: 16px; margin-bottom:-10px; margin-top: -1px;">
+                                Kerela</p>
+                            <p style="color:rgb(152,152,152);">Starting at &#8377;18,600 Per person</p>
+                        </div>
+                    </div>
+                    <div class="cityName1">
+                        <img src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/3067/I.jpg?crop=156:227&amp;downsize=156:227"
+                            alt="dp">
+                        <div class="cityDetails1">
+                            <p style="font-weight: bolder; font-size: 16px; margin-bottom:-10px; margin-top: -1px;">
+                                Thailand</p>
+                            <p style="color:rgb(152,152,152);">Starting at &#8377;8,400 Per person</p>
+                        </div>
+                    </div>
+                    <div class="cityName1">
+                        <img src="https://platforms.makemytrip.com/contents/dd082b59-015c-4f51-b4a5-308337cdd8db"
+                            alt="ads by MMT"
+                            style="width:150px; height:fit-content; margin-right:5px;border-radius: 12px;">
+                    </div>
+                    <div class="cityName1">
+                        <img src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/2004/CDMA_beach%201.jpg?crop=156:227&amp;downsize=156:227"
+                            alt="dp">
+                        <div class="cityDetails1">
+                            <p style="font-weight: bolder; font-size: 16px; margin-bottom:-10px; margin-top: -1px;">
+                                Mauritius</p>
+                            <p style="color:rgb(152,152,152);">Starting at &#8377;31,400 Per person</p>
+                        </div>
+                    </div>
+                    <div class="cityName1">
+                        <img src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/2514/singapore1.jpg?crop=156:227&amp;downsize=156:227"
+                            alt="dp">
+                        <div class="cityDetails1">
+                            <p style="font-weight: bolder; font-size: 16px; margin-bottom:-10px; margin-top: -1px;">
+                                Singapore</p>
+                            <p style="color:rgb(152,152,152);">Starting at &#8377;27,000 Per person</p>
+                        </div>
+                    </div>
+                    <div class="cityName1">
+                        <img src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/3147/majestic-mauritus-and-dubai.jpg?crop=156:227&amp;downsize=156:227"
+                            alt="dp">
+                        <div class="cityDetails1">
+                            <p style="font-weight: bolder; font-size: 16px; margin-bottom:-10px; margin-top: -1px;">
+                                Dubai</p>
+                            <p style="color:rgb(152,152,152);">Starting at &#8377;20,000 Per person</p>
+                        </div>
+                    </div>
+                    <div class="cityName1">
+                        <img src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/4916/kuta.jpg?crop=156:227&amp;downsize=156:227"
+                            alt="dp">
+                        <div class="cityDetails1">
+                            <p style="font-weight: bolder; font-size: 16px; margin-bottom:-10px; margin-top: -1px;">Bali
+                            </p>
+                            <p style="color:rgb(152,152,152);">Starting at &#8377;29,500 Per person</p>
+                        </div>
+                    </div>
+                    <div class="cityName1">
+                        <img src="https://platforms.makemytrip.com/contents/dd082b59-015c-4f51-b4a5-308337cdd8db"
+                            alt="ads by MMT"
+                            style="width:150px; height:fit-content; margin-right:5px;border-radius: 12px;">
+                    </div>
+                    <div class="cityName1">
+                        <img src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/1993/Grand%20Park.JPG?crop=156:227&amp;downsize=156:227"
+                            alt="dp">
+                        <div class="cityDetails1">
+                            <p style="font-weight: bolder; font-size: 16px; margin-bottom:-10px; margin-top: -1px;">
+                                Maldives</p>
+                            <p style="color:rgb(152,152,152);">Starting at &#8377;38,600 Per person</p>
+                        </div>
+                    </div>
+                    <div class="cityName1">
+                        <img src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/61/Opera-Bar.jpg?crop=370:240?crop=156:227&amp;downsize=156:227"
+                            alt="dp">
+                        <div class="cityDetails1">
+                            <p style="font-weight: bolder; font-size: 16px; margin-bottom:-10px; margin-top: -1px;">
+                                Australia</p>
+                            <p style="color:rgb(152,152,152);">Starting at &#8377;25,000 Per person</p>
+                        </div>
+                    </div>
+                    <div class="cityName1">
+                        <img src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/3127/Golden-Horn,-Istanbul,-Turkey.jpg?crop=156:227&amp;downsize=156:227"
+                            alt="dp">
+                        <div class="cityDetails1">
+                            <p style="font-weight: bolder; font-size: 16px; margin-bottom:-10px; margin-top: -1px;">
+                                Turkey</p>
+                            <p style="color:rgb(152,152,152);">Starting at &#8377;68,100 Per person</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- explore the unexplored -->
+        <section id="exploreUnexplore">
+            <div class="card">
+                <h2 style="margin-bottom: 2px;">Explore the Unexplored</h2>
+                <div id="city2">
+                    <div class="cityName1">
+                        <img src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/3198/shutterstock_176887880.jpg?crop=156:227&amp;downsize=156:227"
+                            alt="dp">
+                        <div class="cityDetails1">
+                            <p style="font-weight: bolder; font-size: 16px; margin-bottom:-10px; margin-top: -1px;">
+                                Vietnam</p>
+                            <p style="color:rgb(152,152,152);">Starting at &#8377;8,000 Per person</p>
+                        </div>
+                    </div>
+                    <div class="cityName1">
+                        <img src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/3067/I.jpg?crop=156:227&amp;downsize=156:227"
+                            alt="dp">
+                        <div class="cityDetails1">
+                            <p style="font-weight: bolder; font-size: 16px; margin-bottom:-10px; margin-top: -1px;">
+                                Mauritius</p>
+                            <p style="color:rgb(152,152,152);">Starting at &#8377;31,400 Per person</p>
+                        </div>
+                    </div>
+
+                    <div class="cityName1">
+                        <img src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/2004/CDMA_beach%201.jpg?crop=156:227&amp;downsize=156:227"
+                            alt="dp">
+                        <div class="cityDetails1">
+                            <p style="font-weight: bolder; font-size: 16px; margin-bottom:-10px; margin-top: -1px;">
+                                Gujarat</p>
+                            <p style="color:rgb(152,152,152);">Starting at &#8377;14,000 Per person</p>
+                        </div>
+                    </div>
+                    <div class="cityName1">
+                        <img src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/2514/singapore1.jpg?crop=156:227&amp;downsize=156:227"
+                            alt="dp">
+                        <div class="cityDetails1">
+                            <p style="font-weight: bolder; font-size: 16px; margin-bottom:-10px; margin-top: -1px;">
+                                Maharastra</p>
+                            <p style="color:rgb(152,152,152);">Starting at &#8377;7,500 Per person</p>
+                        </div>
+                    </div>
+                    <div class="cityName1">
+                        <img src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/3147/majestic-mauritus-and-dubai.jpg?crop=156:227&amp;downsize=156:227"
+                            alt="dp">
+                        <div class="cityDetails1">
+                            <p style="font-weight: bolder; font-size: 16px; margin-bottom:-10px; margin-top: -1px;">
+                                Uttarakhand</p>
+                            <p style="color:rgb(152,152,152);">Starting at &#8377;7,100 Per person</p>
+                        </div>
+                    </div>
+                    <div class="cityName1">
+                        <img src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/4916/kuta.jpg?crop=156:227&amp;downsize=156:227"
+                            alt="dp">
+                        <div class="cityDetails1">
+                            <p style="font-weight: bolder; font-size: 16px; margin-bottom:-10px; margin-top: -1px;">
+                                South Africa</p>
+                            <p style="color:rgb(152,152,152);">Starting at &#8377;83,000 Per person</p>
+                        </div>
+                    </div>
+
+                    <div class="cityName1">
+                        <img src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/644/Cairo-2.jpg?crop=156:227&amp;downsize=156:227"
+                            alt="dp">
+                        <div class="cityDetails1">
+                            <p style="font-weight: bolder; font-size: 16px; margin-bottom:-10px; margin-top: -1px;">
+                                Egypt</p>
+                            <p style="color:rgb(152,152,152);">Starting at &#8377;1,20,000 Per person</p>
+                        </div>
+                    </div>
+
+                    <div class="cityName1">
+                        <img src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/61/Opera-Bar.jpg?crop=156:227&amp;downsize=156:227"
+                            alt="dp">
+                        <div class="cityDetails1">
+                            <p style="font-weight: bolder; font-size: 16px; margin-bottom:-10px; margin-top: -1px;">
+                                Australia</p>
+                            <p style="color:rgb(152,152,152);">Starting at &#8377;25,000 Per person</p>
+                        </div>
+                    </div>
+
+                    <div class="cityName1">
+                        <img src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/541/City-Square.jpg??crop=156:227&amp;downsize=156:227"
+                            alt="dp">
+                        <div class="cityDetails1">
+                            <p style="font-weight: bolder; font-size: 16px; margin-bottom:-10px; margin-top: -1px;">
+                                Hongkong</p>
+                            <p style="color:rgb(152,152,152);">Starting at &#8377;22,200 Per person</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- offers -->
+        <section id="offers">
+            <div class="card offerSection">
+                <h2 style='margin-bottom: -2px; margin-top: 5px;'>Offers</h2>
+                <div class="navSection">
+                    <ul>
+                        <li><a href="#holidays">Holidays</a></li>
+                        <li><a href="#allOffers">All Offers</a></li>
+                        <li><a href="#hotels">Hotels</a></li>
+                        <li><a href="#flights">Flights</a></li>
+                        <li><a href="#bus">Bus</a></li>
+                        <li><a href="#bankOffers">Bank Offers</a></li>
+                    </ul>
+                    <hr style="width:40%; margin-left: 160px; margin-top: 0;">
+                </div>
+
+
+                <div id="allOffers" class="tab">
+                    <div class="columnFlex">
+                        <div class="card offerCards">
+                            <div class="cardInnerInfo">
+                                <img src="https://promos.makemytrip.com/images//Desktop-Amex-011123.jpg?im=Resize=(134,134)"
+                                    height="134" width="134" alt="" loading="lazy">
+                                <div>
+                                    <p style="margin-bottom: 0; font-size:18px; font-weight: bold;">LIVE NOW</p>
+                                    <hr
+                                        style="width:33px; background-color: red; height: 2px; border: none; margin-left: 0px;">
+                                    <p style="margin-top: 0; font-size:16px;">IndiGo’s Sale with up to 20% OFF* on
+                                        domestic flights.</p>
+                                </div>
+                            </div>
+                            <div class="sliderfooter">
+                                <p>T&C's Apply</p>
+                                <p style="color:rgb(0,140,255); font-weight: bold;"> BOOK NOW</p>
+                            </div>
+                        </div>
+
+                        <div class="card offerCards">
+                            <div class="cardInnerInfo">
+                                <img src="https://promos.makemytrip.com/notification/xhdpi//indigo-116x116-29052023.jpg?im=Resize=(134,134)"
+                                    height="134" width="134" alt="" loading="lazy">
+                                <div>
+                                    <p style="margin-bottom: 0; font-size:18px; font-weight: bold;">Enjoy Up to 45% OFF*
+                                    </p>
+                                    <hr
+                                        style="width:33px; background-color: red; height: 2px; border: none; margin-left: 0px;">
+                                    <p style="margin-top: 0; font-size:16px;">on Sterling Holiday Resorts in India</p>
+                                </div>
+                            </div>
+                            <div class="sliderfooter">
+                                <p>T&C's Apply</p>
+                                <p style="color:rgb(0,140,255); font-weight: bold;"> BOOK NOW</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="columnFlex">
+                        <div class="card offerCards">
+                            <div class="cardInnerInfo">
+                                <img src="https://promos.makemytrip.com/notification/xhdpi//116X116-sterling-30102023.jpg?im=Resize=(134,134)"
+                                    height="134" width="134" alt="" loading="lazy">
+                                <div>
+                                    <p style="margin-bottom: 0; font-size:18px; font-weight: bold;">Grab FLAT 12% OFF*
+                                        on Domestic Flights!</p>
+                                    <hr
+                                        style="width:33px; background-color: red; height: 2px; border: none; margin-left: 0px;">
+                                    <p style="margin-top: 0; font-size:16px;">Valid on Kotak Bank Credit and Debit
+                                        Cards.</p>
+                                </div>
+                            </div>
+                            <div class="sliderfooter">
+                                <p>T&C's Apply</p>
+                                <p style="color:rgb(0,140,255); font-weight: bold;"> BOOK NOW</p>
+                            </div>
+                        </div>
+                        <div class="card offerCards">
+                            <div class="cardInnerInfo">
+                                <img src="https://promos.makemytrip.com/notification/xhdpi//airasia-116x116-21062023.jpg?im=Resize=(134,134)"
+                                    height="134" width="134" alt="" loading="lazy">
+                                <div>
+                                    <p style="margin-bottom: 0; font-size:18px; font-weight: bold;">AirAsia’s Sale is
+                                        LIVE NOW!</p>
+                                    <hr
+                                        style="width:33px; background-color: red; height: 2px; border: none; margin-left: 0px;">
+                                    <p style="margin-top: 0; font-size:16px;">Book flights to Kuala Lumpur from Delhi &
+                                        Amritsar with one-way fares starting @ ₹7,666.</p>
+                                </div>
+                            </div>
+                            <div class="sliderfooter">
+                                <p>T&C's Apply</p>
+                                <p style="color:rgb(0,140,255); font-weight: bold;"> BOOK NOW</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="columnFlex">
+                        <div class="card offerCards">
+                            <div class="cardInnerInfo">
+                                <img src="https://promos.makemytrip.com/notification/xhdpi//116X116-vistara-16082023.jpg?im=Resize=(134,134)"
+                                    height="134" width="134" alt="" loading="lazy">
+                                <div>
+                                    <p style="margin-bottom: 0; font-size:18px; font-weight: bold;">Grab Up to ₹30,000
+                                        OFF* on</p>
+                                    <hr
+                                        style="width:33px; background-color: red; height: 2px; border: none; margin-left: 0px;">
+                                    <p style="margin-top: 0; font-size:16px;">flights,holidays and holiday packages</p>
+                                </div>
+                            </div>
+                            <div class="sliderfooter">
+                                <p>T&C's Apply</p>
+                                <p style="color:rgb(0,140,255); font-weight: bold;"> BOOK NOW</p>
+                            </div>
+                        </div>
+
+                        <div class="card offerCards">
+                            <div class="cardInnerInfo">
+                                <img src="https://promos.makemytrip.com/notification/xhdpi//116X116-cathay-pacific-18102023.jpg?im=Resize=(134,134)"
+                                    height="134" width="134" alt="" loading="lazy">
+                                <div>
+                                    <p style="margin-bottom: 0; font-size:18px; font-weight: bold;">JUST IN: New Flights
+                                        by Vistara</p>
+                                    <hr
+                                        style="width:33px; background-color: red; height: 2px; border: none; margin-left: 0px;">
+                                    <p style="margin-top: 0; font-size:16px;">connecting Delhi & Bali!</p>
+                                </div>
+                            </div>
+                            <div class="sliderfooter">
+                                <p>T&C's Apply</p>
+                                <p style="color:rgb(0,140,255); font-weight: bold;"> BOOK NOW</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="columnFlex">
+                        <div class="card offerCards">
+                            <div class="cardInnerInfo">
+                                <img src="https://promos.makemytrip.com/notification/xhdpi//Desktop-CGH.jpg?im=Resize=(134,134)"
+                                    height="134" width="134" alt="" loading="lazy">
+                                <div>
+                                    <p style="margin-bottom: 0; font-size:18px; font-weight: bold;">Enjoy the Most
+                                        Remarkable Experiences!</p>
+                                    <hr
+                                        style="width:33px; background-color: red; height: 2px; border: none; margin-left: 0px;">
+                                    <p style="margin-top: 0; font-size:16px;">Grab Up to 25% OFF* on CGH Earth
+                                        Experience Hotels </p>
+                                </div>
+                            </div>
+                            <div class="sliderfooter">
+                                <p>T&C's Apply</p>
+                                <p style="color:rgb(0,140,255); font-weight: bold;"> BOOK NOW</p>
+                            </div>
+                        </div>
+                        <div class="card offerCards">
+                            <div class="cardInnerInfo">
+                                <img src="https://promos.makemytrip.com/images//Desktop-Ih-Newdestination-310823.jpg?im=Resize=(134,134)"
+                                    height="134" width="134" alt="" loading="lazy">
+                                <div>
+                                    <p style="margin-bottom: 0; font-size:18px; font-weight: bold;">It’s Now
+                                        EASIER-THAN-EVER to Plan Trips to</p>
+                                    <hr
+                                        style="width:33px; background-color: red; height: 2px; border: none; margin-left: 0px;">
+                                    <p style="margin-top: 0; font-size:16px;">Baku, Cairo, Almaty, Tashkent, Nairobi &
+                                        more! So, explore hotels & book with us NOW.</p>
+                                </div>
+                            </div>
+                            <div class="sliderfooter">
+                                <p>T&C's Apply</p>
+                                <p style="color:rgb(0,140,255); font-weight: bold;"> BOOK NOW</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="hotels" class="tab">
+                    <div class="columnFlex">
+                        <div class="card offerCards">
+                            <div class="cardInnerInfo">
+                                <img src="https://promos.makemytrip.com/notification/xhdpi//116X116-sterling-30102023.jpg?im=Resize=(134,134)"
+                                    height="134" width="134" alt="">
+                                <div>
+                                    <p style="margin-bottom: 0; font-size:18px; font-weight: bold;">Enjoy Up to 45% OFF*
+                                    </p>
+                                    <hr
+                                        style="width:33px; background-color: red; height: 2px; border: none; margin-left: 0px;">
+                                    <p style="margin-top: 0; font-size:16px;">on Sterling Holiday Resorts in India</p>
+                                </div>
+                            </div>
+                            <div class="sliderfooter">
+                                <p>T&C's Apply</p>
+                                <p style="color:rgb(0,140,255); font-weight: bold;"> BOOK NOW</p>
+                            </div>
+                        </div>
+
+                        <div class="card offerCards">
+                            <div class="cardInnerInfo">
+                                <img src="https://promos.makemytrip.com/notification/xhdpi//Desktop-CGH.jpg?im=Resize=(134,134)"
+                                    height="134" width="134" alt="" loading="lazy">
+                                <div>
+                                    <p style="margin-bottom: 0; font-size:18px; font-weight: bold;">Enjoy the Most
+                                        Remarkable Experiences!</p>
+                                    <hr
+                                        style="width:33px; background-color: red; height: 2px; border: none; margin-left: 0px;">
+                                    <p style="margin-top: 0; font-size:16px;">Grab Up to 25% OFF* on CGH Earth
+                                        Experience Hotels </p>
+                                </div>
+                            </div>
+                            <div class="sliderfooter">
+                                <p>T&C's Apply</p>
+                                <p style="color:rgb(0,140,255); font-weight: bold;"> BOOK NOW</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="columnFlex">
+                        <div class="card offerCards">
+                            <div class="cardInnerInfo">
+                                <img src="https://promos.makemytrip.com/images//Desktop-Ih-Newdestination-310823.jpg?im=Resize=(134,134)"
+                                    height="134" width="134" alt="" loading="lazy">
+                                <div>
+                                    <p style="margin-bottom: 0; font-size:18px; font-weight: bold;">It’s Now
+                                        EASIER-THAN-EVER to Plan Trips to</p>
+                                    <hr
+                                        style="width:33px; background-color: red; height: 2px; border: none; margin-left: 0px;">
+                                    <p style="margin-top: 0; font-size:16px;">Baku, Cairo, Almaty, Tashkent, Nairobi &
+                                        more! So, explore hotels & book with us NOW.</p>
+                                </div>
+                            </div>
+                            <div class="sliderfooter">
+                                <p>T&C's Apply</p>
+                                <p style="color:rgb(0,140,255); font-weight: bold;"> BOOK NOW</p>
+                            </div>
+                        </div>
+                        <div class="card offerCards">
+                            <div class="cardInnerInfo">
+                                <img src="https://promos.makemytrip.com/images//Desktop-thailand-060923.jpg?im=Resize=(134,134)"
+                                    height="134" width="134" alt="" loading="lazy">
+                                <div>
+                                    <p style="margin-bottom: 0; font-size:18px; font-weight: bold;">Enjoy Early Check-in
+                                        on Thailand Hotels & Homestay...</p>
+                                    <hr
+                                        style="width:33px; background-color: red; height: 2px; border: none; margin-left: 0px;">
+                                    <p style="margin-top: 0; font-size:16px;">+ Up to 25% OFF* on Your Stay.</p>
+                                </div>
+                            </div>
+                            <div class="sliderfooter">
+                                <p>T&C's Apply</p>
+                                <p style="color:rgb(0,140,255); font-weight: bold;"> BOOK NOW</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="columnFlex">
+                        <div class="card offerCards">
+                            <div class="cardInnerInfo">
+                                <img src="https://promos.makemytrip.com/notification/xhdpi//country-inn-116x116-01052023.jpg?im=Resize=(134,134)"
+                                    height="134" width="134" alt="" loading="lazy">
+                                <div>
+                                    <p style="margin-bottom: 0; font-size:18px; font-weight: bold;">Get ready for a
+                                        refreshing break!</p>
+                                    <hr
+                                        style="width:33px; background-color: red; height: 2px; border: none; margin-left: 0px;">
+                                    <p style="margin-top: 0; font-size:16px;">Grab Up to 30% OFF* on your stay at
+                                        Country Inn Hotels & Resorts.</p>
+                                </div>
+                            </div>
+                            <div class="sliderfooter">
+                                <p>T&C's Apply</p>
+                                <p style="color:rgb(0,140,255); font-weight: bold;"> BOOK NOW</p>
+                            </div>
+                        </div>
+
+                        <div class="card offerCards">
+                            <div class="cardInnerInfo">
+                                <img src="https://promos.makemytrip.com/images//Desktop-USA-060923.jpg?im=Resize=(134,134)"
+                                    height="134" width="134" alt="" loading="lazy">
+                                <div>
+                                    <p style="margin-bottom: 0; font-size:18px; font-weight: bold;">Choose from Over 1
+                                        Lakh Hotels & Homestays for you...</p>
+                                    <hr
+                                        style="width:33px; background-color: red; height: 2px; border: none; margin-left: 0px;">
+                                    <p style="margin-top: 0; font-size:16px;">+ Up to 25% OFF* on Your Stay in the USA.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="sliderfooter">
+                                <p>T&C's Apply</p>
+                                <p style="color:rgb(0,140,255); font-weight: bold;"> BOOK NOW</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="columnFlex">
+                        <div class="card offerCards">
+                            <div class="cardInnerInfo">
+                                <img src="https://promos.makemytrip.com/notification/xhdpi//vietnam-116x116-02122022.jpg?im=Resize=(134,134)"
+                                    height="134" width="134" alt="" loading="lazy">
+                                <div>
+                                    <p style="margin-bottom: 0; font-size:18px; font-weight: bold;">Enjoy Up to 30% OFF*
+                                        on Vietnam Hotels</p>
+                                    <hr
+                                        style="width:33px; background-color: red; height: 2px; border: none; margin-left: 0px;">
+                                    <p style="margin-top: 0; font-size:16px;">& make the most of your trip!</p>
+                                </div>
+                            </div>
+                            <div class="sliderfooter">
+                                <p>T&C's Apply</p>
+                                <p style="color:rgb(0,140,255); font-weight: bold;"> BOOK NOW</p>
+                            </div>
+                        </div>
+                        <div class="card offerCards">
+                            <div class="cardInnerInfo">
+                                <img src="https://promos.makemytrip.com/notification/xhdpi//116X116-lemon-tree-29082023.jpg?im=Resize=(134,134)"
+                                    height="134" width="134" alt="" loading="lazy">
+                                <div>
+                                    <p style="margin-bottom: 0; font-size:18px; font-weight: bold;">Enjoy Up to 50% OFF*
+                                        on Lemon Tree Hotels.</p>
+                                    <hr
+                                        style="width:33px; background-color: red; height: 2px; border: none; margin-left: 0px;">
+                                    <p style="margin-top: 0; font-size:16px;">Hurry! It’s a limited-period deal!</p>
+                                </div>
+                            </div>
+                            <div class="sliderfooter">
+                                <p>T&C's Apply</p>
+                                <p style="color:rgb(0,140,255); font-weight: bold;"> BOOK NOW</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="flights" class="tab">
+                    <div class="columnFlex">
+                        <div class="card offerCards">
+                            <div class="cardInnerInfo">
+                                <img src="https://promos.makemytrip.com/images//Desktop-Amex-011123.jpg?im=Resize=(134,134)"
+                                    height="134" width="134" alt="" loading="lazy">
+                                <div>
+                                    <p style="margin-bottom: 0; font-size:18px; font-weight: bold;">LIVE NOW:</p>
+                                    <hr
+                                        style="width:33px; background-color: red; height: 2px; border: none; margin-left: 0px;">
+                                    <p style="margin-top: 0; font-size:16px;">IndiGo’s Sale with up to 20% OFF* on
+                                        domestic flights.</p>
+                                </div>
+                            </div>
+                            <div class="sliderfooter">
+                                <p>T&C's Apply</p>
+                                <p style="color:rgb(0,140,255); font-weight: bold;"> BOOK NOW</p>
+                            </div>
+                        </div>
+
+                        <div class="card offerCards">
+                            <div class="cardInnerInfo">
+                                <img src="https://promos.makemytrip.com/notification/xhdpi//indigo-116x116-29052023.jpg?im=Resize=(134,134)"
+                                    height="134" width="134" alt="" loading="lazy">
+                                <div>
+                                    <p style="margin-bottom: 0; font-size:18px; font-weight: bold;">Grab FLAT 12% OFF*
+                                        on Domestic Flights!</p>
+                                    <hr
+                                        style="width:33px; background-color: red; height: 2px; border: none; margin-left: 0px;">
+                                    <p style="margin-top: 0; font-size:16px;">Valid on Kotak Bank Credit and Debit
+                                        Cards.</p>
+                                </div>
+                            </div>
+                            <div class="sliderfooter">
+                                <p>T&C's Apply</p>
+                                <p style="color:rgb(0,140,255); font-weight: bold;"> BOOK NOW</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="columnFlex">
+                        <div class="card offerCards">
+                            <div class="cardInnerInfo">
+                                <img src="https://promos.makemytrip.com/notification/xhdpi//airasia-116x116-21062023.jpg?im=Resize=(134,134)"
+                                    height="134" width="134" alt="" loading="lazy">
+                                <div>
+                                    <p style="margin-bottom: 0; font-size:18px; font-weight: bold;">Grab Up to ₹30,000
+                                        OFF* on</p>
+                                    <hr
+                                        style="width:33px; background-color: red; height: 2px; border: none; margin-left: 0px;">
+                                    <p style="margin-top: 0; font-size:16px;">flights,holidays and holiday packages</p>
+                                </div>
+                            </div>
+                            <div class="sliderfooter">
+                                <p>T&C's Apply</p>
+                                <p style="color:rgb(0,140,255); font-weight: bold;"> BOOK NOW</p>
+                            </div>
+                        </div>
+                        <div class="card offerCards">
+                            <div class="cardInnerInfo">
+                                <img src="https://promos.makemytrip.com/notification/xhdpi//indigo-116x116-29052023.jpg?im=Resize=(134,134)"
+                                    height="134" width="134" alt="" loading="lazy">
+                                <div>
+                                    <p style="margin-bottom: 0; font-size:18px; font-weight: bold;">AirAsia’s Sale is
+                                        LIVE NOW!</p>
+                                    <hr
+                                        style="width:33px; background-color: red; height: 2px; border: none; margin-left: 0px;">
+                                    <p style="margin-top: 0; font-size:16px;">Book flights to Kuala Lumpur from Delhi &
+                                        Amritsar with one-way fares starting @ ₹7,666.</p>
+                                </div>
+                            </div>
+                            <div class="sliderfooter">
+                                <p>T&C's Apply</p>
+                                <p style="color:rgb(0,140,255); font-weight: bold;"> BOOK NOW</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="columnFlex">
+                        <div class="card offerCards">
+                            <div class="cardInnerInfo">
+                                <img src="https://promos.makemytrip.com/notification/xhdpi//116X116-cathay-pacific-18102023.jpg?im=Resize=(134,134)"
+                                    height="134" width="134" alt="" loading="lazy">
+                                <div>
+                                    <p style="margin-bottom: 0; font-size:18px; font-weight: bold;">JUST IN: New Flights
+                                        by Vistara</p>
+                                    <hr
+                                        style="width:33px; background-color: red; height: 2px; border: none; margin-left: 0px;">
+                                    <p style="margin-top: 0; font-size:16px;">connecting Delhi & Bali!</p>
+                                </div>
+                            </div>
+                            <div class="sliderfooter">
+                                <p>T&C's Apply</p>
+                                <p style="color:rgb(0,140,255); font-weight: bold;"> BOOK NOW</p>
+                            </div>
+                        </div>
+
+                        <div class="card offerCards">
+                            <div class="cardInnerInfo">
+                                <img src="https://promos.makemytrip.com/notification/xhdpi//united-116x116-26102023.jpg?im=Resize=(134,134)"
+                                    height="134" width="134" alt="" loading="lazy">
+                                <div>
+                                    <p style="margin-bottom: 0; font-size:18px; font-weight: bold;">Special Fares on
+                                        Hong Kong Tickets</p>
+                                    <hr
+                                        style="width:33px; background-color: red; height: 2px; border: none; margin-left: 0px;">
+                                    <p style="margin-top: 0; font-size:16px;">with Cathay Pacific’s Sale for limited
+                                        period ONLY! </p>
+                                </div>
+                            </div>
+                            <div class="sliderfooter">
+                                <p>T&C's Apply</p>
+                                <p style="color:rgb(0,140,255); font-weight: bold;"> BOOK NOW</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="columnFlex">
+                        <div class="card offerCards">
+                            <div class="cardInnerInfo">
+                                <img src="https://promos.makemytrip.com/notification/xhdpi//flight123456.jpg?im=Resize=(134,134)"
+                                    height="134" width="134" alt="" loading="lazy">
+                                <div>
+                                    <p style="margin-bottom: 0; font-size:18px; font-weight: bold;">United Airlines
+                                        Launches New Direct Flights</p>
+                                    <hr
+                                        style="width:33px; background-color: red; height: 2px; border: none; margin-left: 0px;">
+                                    <p style="margin-top: 0; font-size:16px;">between Delhi & Newark!</p>
+                                </div>
+                            </div>
+                            <div class="sliderfooter">
+                                <p>T&C's Apply</p>
+                                <p style="color:rgb(0,140,255); font-weight: bold;"> BOOK NOW</p>
+                            </div>
+                        </div>
+                        <div class="card offerCards">
+                            <div class="cardInnerInfo">
+                                <img src="https://promos.makemytrip.com/notification/xhdpi//indigo-116x116-29052023.jpg?im=Resize=(134,134)"
+                                    height="134" width="134" alt="" loading="lazy">
+                                <div>
+                                    <p style="margin-bottom: 0; font-size:18px; font-weight: bold;">Special Benefit for
+                                        Defence Personnel: </p>
+                                    <hr
+                                        style="width:33px; background-color: red; height: 2px; border: none; margin-left: 0px;">
+                                    <p style="margin-top: 0; font-size:16px;">FREE Date Change on Domestic Flights @ NO
+                                        EXTRA COST. Code: FREEDATECHANGE.</p>
+                                </div>
+                            </div>
+                            <div class="sliderfooter">
+                                <p>T&C's Apply</p>
+                                <p style="color:rgb(0,140,255); font-weight: bold;"> BOOK NOW</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="bus" class="tab">
+                    <div class="columnFlex">
+                        <div class="card offerCards">
+                            <div class="cardInnerInfo">
+                                <img src="https://promos.makemytrip.com/appfest/2x//ChicletBG-BusSouthOffer-12Jun.jpg?im=Resize=(134,134)"
+                                    height="134" width="134" alt="" loading="lazy">
+                                <div>
+                                    <p style="margin-bottom: 0; font-size:18px; font-weight: bold;">Grab Up to 15% OFF*
+                                        on Bus Tickets!</p>
+                                    <hr
+                                        style="width:33px; background-color: red; height: 2px; border: none; margin-left: 0px;">
+                                    <p style="margin-top: 0; font-size:16px;">Valid on trips from Andhra Pradesh,
+                                        Karnataka, Kerala & more.</p>
+                                </div>
+                            </div>
+                            <div class="sliderfooter">
+                                <p>T&C's Apply</p>
+                                <p style="color:rgb(0,140,255); font-weight: bold;"> BOOK NOW</p>
+                            </div>
+                        </div>
+
+                        <div class="card offerCards">
+                            <div class="cardInnerInfo">
+                                <img src="https://promos.makemytrip.com/notification/xhdpi//Desktop-BustNorthOffer-5Jun.jpg?im=Resize=(134,134)"
+                                    height="134" width="134" alt="" loading="lazy">
+                                <div>
+                                    <p style="margin-bottom: 0; font-size:18px; font-weight: bold;">Enjoy Up to 15% OFF*
+                                        on Bus Tickets.</p>
+                                    <hr
+                                        style="width:33px; background-color: red; height: 2px; border: none; margin-left: 0px;">
+                                    <p style="margin-top: 0; font-size:16px;">Valid on trips from Madhya Pradesh,
+                                        Gujarat & Maharashtra.</p>
+                                </div>
+                            </div>
+                            <div class="sliderfooter">
+                                <p>T&C's Apply</p>
+                                <p style="color:rgb(0,140,255); font-weight: bold;"> BOOK NOW</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="columnFlex">
+                        <div class="card offerCards">
+                            <div class="cardInnerInfo">
+                                <img src="https://promos.makemytrip.com/notification/xhdpi//Desktop-EasternIndia-19Oct.jpg?im=Resize=(134,134)"
+                                    height="134" width="134" alt="" loading="lazy">
+                                <div>
+                                    <p style="margin-bottom: 0; font-size:18px; font-weight: bold;">Grab NOW: Up to 15%
+                                        OFF* on Bus Tickets. </p>
+                                    <hr
+                                        style="width:33px; background-color: red; height: 2px; border: none; margin-left: 0px;">
+                                    <p style="margin-top: 0; font-size:16px;">Valid on trips from West Bengal,
+                                        Chhattisgarh, Bihar & more.</p>
+                                </div>
+                            </div>
+                            <div class="sliderfooter">
+                                <p>T&C's Apply</p>
+                                <p style="color:rgb(0,140,255); font-weight: bold;"> BOOK NOW</p>
+                            </div>
+                        </div>
+                        <div class="card offerCards">
+                            <div class="cardInnerInfo">
+                                <img src="https://promos.makemytrip.com/notification/xhdpi//Desktop-BusNorthOffer-12May.jpg?im=Resize=(134,134)"
+                                    height="134" width="134" alt="" loading="lazy">
+                                <div>
+                                    <p style="margin-bottom: 0; font-size:18px; font-weight: bold;">Grab Up to 15% OFF*
+                                        on Buses</p>
+                                    <hr
+                                        style="width:33px; background-color: red; height: 2px; border: none; margin-left: 0px;">
+                                    <p style="margin-top: 0; font-size:16px;">plying from northern India. Get set for
+                                        your next road trip. </p>
+                                </div>
+                            </div>
+                            <div class="sliderfooter">
+                                <p>T&C's Apply</p>
+                                <p style="color:rgb(0,140,255); font-weight: bold;"> BOOK NOW</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="columnFlex">
+                        <div class="card offerCards">
+                            <div class="cardInnerInfo">
+                                <img src="https://promos.makemytrip.com/notification/xhdpi//rupay-116x116-19082022.jpg?im=Resize=(134,134)"
+                                    height="134" width="134" alt="" loading="lazy">
+                                <div>
+                                    <p style="margin-bottom: 0; font-size:18px; font-weight: bold;">Enjoy Power-packed
+                                        Deals for Your Next Trip:</p>
+                                    <hr
+                                        style="width:33px; background-color: red; height: 2px; border: none; margin-left: 0px;">
+                                    <p style="margin-top: 0; font-size:16px;">Up to 15% OFF* on Flights, Hotels, Bus &
+                                        Outstation Cabs</p>
+                                </div>
+                            </div>
+                            <div class="sliderfooter">
+                                <p>T&C's Apply</p>
+                                <p style="color:rgb(0,140,255); font-weight: bold;"> BOOK NOW</p>
+                            </div>
+                        </div>
+
+                        <div class="card offerCards">
+                            <div class="cardInnerInfo">
+                                <img src="https://promos.makemytrip.com/notification/xhdpi//116X116-airtel-08062023.jpg?im=Resize=(134,134)"
+                                    height="134" width="134" alt="" loading="lazy">
+                                <div>
+                                    <p style="margin-bottom: 0; font-size:18px; font-weight: bold;">FLAT ₹500 OFF* on
+                                    </p>
+                                    <hr
+                                        style="width:33px; background-color: red; height: 2px; border: none; margin-left: 0px;">
+                                    <p style="margin-top: 0; font-size:16px;">flights, hotels, buses & cabs for your
+                                        trips in India!</p>
+                                </div>
+                            </div>
+                            <div class="sliderfooter">
+                                <p>T&C's Apply</p>
+                                <p style="color:rgb(0,140,255); font-weight: bold;"> BOOK NOW</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="columnFlex">
+                        <div class="card offerCards">
+                            <div class="cardInnerInfo">
+                                <img src="https://promos.makemytrip.com/notification/xhdpi//116X116-mobikwik-30052023.jpg?im=Resize=(134,134)"
+                                    height="134" width="134" alt="" loading="lazy">
+                                <div>
+                                    <p style="margin-bottom: 0; font-size:18px; font-weight: bold;">FOR THIS TRAVEL
+                                        SEASON: </p>
+                                    <hr
+                                        style="width:33px; background-color: red; height: 2px; border: none; margin-left: 0px;">
+                                    <p style="margin-top: 0; font-size:16px;">Grab FLAT 10% OFF* on Domestic Flights,
+                                        Hotels, Cabs & Buses </p>
+                                </div>
+                            </div>
+                            <div class="sliderfooter">
+                                <p>T&C's Apply</p>
+                                <p style="color:rgb(0,140,255); font-weight: bold;"> BOOK NOW</p>
+                            </div>
+                        </div>
+                        <div class="card offerCards">
+                            <div class="cardInnerInfo">
+                                <img src="https://promos.makemytrip.com/notification/xhdpi//bus-116x116-22022022.jpg?im=Resize=(134,134)"
+                                    height="134" width="134" alt="" loading="lazy">
+                                <div>
+                                    <p style="margin-bottom: 0; font-size:18px; font-weight: bold;">#DealsOnWheels: Save
+                                        Up to 8%* on Bus Bookings </p>
+                                    <hr
+                                        style="width:33px; background-color: red; height: 2px; border: none; margin-left: 0px;">
+                                    <p style="margin-top: 0; font-size:16px;">and get set for a fun-filled road trip!
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="sliderfooter">
+                                <p>T&C's Apply</p>
+                                <p style="color:rgb(0,140,255); font-weight: bold;"> BOOK NOW</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div id="bankOffers" class="tab">
+                    <div class="columnFlex">
+                        <div class="card offerCards">
+                            <div class="cardInnerInfo">
+                                <img src="https://promos.makemytrip.com/notification/xhdpi//116X116-airtel-08062023.jpg?im=Resize=(134,134)"
+                                    height="134" width="134" alt="" loading="lazy">
+                                <div>
+                                    <p style="margin-bottom: 0; font-size:18px; font-weight: bold;">FLAT ₹500 OFF* on
+                                    </p>
+                                    <hr
+                                        style="width:33px; background-color: red; height: 2px; border: none; margin-left: 0px;">
+                                    <p style="margin-top: 0; font-size:16px;">flights, hotels, buses & cabs for your
+                                        trips in India!</p>
+                                </div>
+                            </div>
+                            <div class="sliderfooter">
+                                <p>T&C's Apply</p>
+                                <p style="color:rgb(0,140,255); font-weight: bold;"> BOOK NOW</p>
+                            </div>
+                        </div>
+
+                        <div class="card offerCards">
+                            <div class="cardInnerInfo">
+                                <img src="https://promos.makemytrip.com/notification/xhdpi//HSBC_Bank_JFM23_DT_Banner.jpg?im=Resize=(134,134)"
+                                    height="134" width="134" alt="" loading="lazy">
+                                <div>
+                                    <p style="margin-bottom: 0; font-size:18px; font-weight: bold;">Grab Up to 15% OFF*
+                                        on</p>
+                                    <hr
+                                        style="width:33px; background-color: red; height: 2px; border: none; margin-left: 0px;">
+                                    <p style="margin-top: 0; font-size:16px;">domestic + international flights, hotels &
+                                        homestays for your memorable trips!</p>
+                                </div>
+                            </div>
+                            <div class="sliderfooter">
+                                <p>T&C's Apply</p>
+                                <p style="color:rgb(0,140,255); font-weight: bold;"> BOOK NOW</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="columnFlex">
+                        <div class="card offerCards">
+                            <div class="cardInnerInfo">
+                                <img src="https://promos.makemytrip.com/notification/xhdpi//116X116-kotak-df-02082023.jpg?im=Resize=(134,134)"
+                                    height="134" width="134" alt="" loading="lazy">
+                                <div>
+                                    <p style="margin-bottom: 0; font-size:18px; font-weight: bold;">Grab FLAT 12% OFF*
+                                        on Domestic Flights!</p>
+                                    <hr
+                                        style="width:33px; background-color: red; height: 2px; border: none; margin-left: 0px;">
+                                    <p style="margin-top: 0; font-size:16px;">Valid on Kotak Bank Credit and Debit
+                                        Cards.</p>
+                                </div>
+                            </div>
+                            <div class="sliderfooter">
+                                <p>T&C's Apply</p>
+                                <p style="color:rgb(0,140,255); font-weight: bold;"> BOOK NOW</p>
+                            </div>
+                        </div>
+                        <div class="card offerCards">
+                            <div class="cardInnerInfo">
+                                <img src="https://promos.makemytrip.com/notification/xhdpi//116X116-kotak-dh-02082023.jpg?im=Resize=(134,134)"
+                                    height="134" width="134" alt="" loading="lazy">
+                                <div>
+                                    <p style="margin-bottom: 0; font-size:18px; font-weight: bold;">Grab FLAT 15% OFF*
+                                        on Hotels in India!</p>
+                                    <hr
+                                        style="width:33px; background-color: red; height: 2px; border: none; margin-left: 0px;">
+                                    <p style="margin-top: 0; font-size:16px;">Valid on Kotak Bank Credit and Debit
+                                        Cards.</p>
+                                </div>
+                            </div>
+                            <div class="sliderfooter">
+                                <p>T&C's Apply</p>
+                                <p style="color:rgb(0,140,255); font-weight: bold;"> BOOK NOW</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="columnFlex">
+                        <div class="card offerCards">
+                            <div class="cardInnerInfo">
+                                <img src="https://promos.makemytrip.com/notification/xhdpi//116X116-kotak-if-03082023.jpg?im=Resize=(134,134)"
+                                    height="134" width="134" alt="" loading="lazy">
+                                <div>
+                                    <p style="margin-bottom: 0; font-size:18px; font-weight: bold;">Grab FLAT 10% OFF*
+                                        on International Flights</p>
+                                    <hr
+                                        style="width:33px; background-color: red; height: 2px; border: none; margin-left: 0px;">
+                                    <p style="margin-top: 0; font-size:16px;">and save BIG on your next trip abroad.</p>
+                                </div>
+                            </div>
+                            <div class="sliderfooter">
+                                <p>T&C's Apply</p>
+                                <p style="color:rgb(0,140,255); font-weight: bold;"> BOOK NOW</p>
+                            </div>
+                        </div>
+
+                        <div class="card offerCards">
+                            <div class="cardInnerInfo">
+                                <img src="https://promos.makemytrip.com/notification/xhdpi//116X116-kotak-ih-03082023.jpg?im=Resize=(134,134)"
+                                    height="134" width="134" alt="" loading="lazy">
+                                <div>
+                                    <p style="margin-bottom: 0; font-size:18px; font-weight: bold;">Grab Up to 15% OFF*
+                                        on International Hotels</p>
+                                    <hr
+                                        style="width:33px; background-color: red; height: 2px; border: none; margin-left: 0px;">
+                                    <p style="margin-top: 0; font-size:16px;">and save BIG on your dream stay.</p>
+                                </div>
+                            </div>
+                            <div class="sliderfooter">
+                                <p>T&C's Apply</p>
+                                <p style="color:rgb(0,140,255); font-weight: bold;"> BOOK NOW</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="columnFlex">
+                        <div class="card offerCards">
+                            <div class="cardInnerInfo">
+                                <img src="https://promos.makemytrip.com/notification/xhdpi//116X116-kotak-holidays-03082023.jpg?im=Resize=(134,134)"
+                                    height="134" width="134" alt="" loading="lazy">
+                                <div>
+                                    <p style="margin-bottom: 0; font-size:18px; font-weight: bold;">Grab FLAT 30% OFF*
+                                        on Holiday Packages</p>
+                                    <hr
+                                        style="width:33px; background-color: red; height: 2px; border: none; margin-left: 0px;">
+                                    <p style="margin-top: 0; font-size:16px;">Valid on Kotak Bank Credit Cards.</p>
+                                </div>
+                            </div>
+                            <div class="sliderfooter">
+                                <p>T&C's Apply</p>
+                                <p style="color:rgb(0,140,255); font-weight: bold;"> BOOK NOW</p>
+                            </div>
+                        </div>
+                        <div class="card offerCards">
+                            <div class="cardInnerInfo">
+                                <img src="https://promos.makemytrip.com/notification/xhdpi//116X116-icici-df-13102023.jpg?im=Resize=(134,134)"
+                                    height="134" width="134" alt="" loading="lazy">
+                                <div>
+                                    <p style="margin-bottom: 0; font-size:18px; font-weight: bold;">Grab NOW: FLAT 12%
+                                        OFF* on Domestic Flights!</p>
+                                    <hr
+                                        style="width:33px; background-color: red; height: 2px; border: none; margin-left: 0px;">
+                                    <p style="margin-top: 0; font-size:16px;">Valid on ICICI Bank Credit Cards, Credit
+                                        Cards EMI and Debit Cardss</p>
+                                </div>
+                            </div>
+                            <div class="sliderfooter">
+                                <p>T&C's Apply</p>
+                                <p style="color:rgb(0,140,255); font-weight: bold;"> BOOK NOW</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="holidays" class="tab default_tab">
+                    <div class="columnFlex">
+                        <div class="card offerCards">
+                            <div class="cardInnerInfo">
+                                <img src="https://promos.makemytrip.com/notification/xhdpi//232x232-DT-Ayodhya.png?im=Resize=(134,134)"
+                                    height="134" width="134" alt="" loading="lazy">
+                                <div>
+                                    <p style="margin-bottom: 0; font-size:18px; font-weight: bold;">Presenting Ayodhya
+                                        Darshan Express! </p>
+                                    <hr
+                                        style="width:33px; background-color: red; height: 2px; border: none; margin-left: 0px;">
+                                    <p style="margin-top: 0; font-size:16px;">Book Ayodhya packages including an AC
+                                        train journey, special darshan of the New Ram Mandir & Kashi Vishwanath Mandir.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="sliderfooter">
+                                <p>T&C's Apply</p>
+                                <p style="color:rgb(0,140,255); font-weight: bold;"> BOOK NOW</p>
+                            </div>
+                        </div>
+
+                        <div class="card offerCards">
+                            <div class="cardInnerInfo">
+                                <img src="https://promos.makemytrip.com/notification/xhdpi//Desktop-Hol-Packages-Villa-11Oct.jpg?im=Resize=(134,134)"
+                                    height="134" width="134" alt="" loading="lazy">
+                                <div>
+                                    <p style="margin-bottom: 0; font-size:18px; font-weight: bold;">Introducing Holiday
+                                        Packages with Villas </p>
+                                    <hr
+                                        style="width:33px; background-color: red; height: 2px; border: none; margin-left: 0px;">
+                                    <p style="margin-top: 0; font-size:16px;">Explore unique stay options like villas,
+                                        homestays, cottages, tents, beach huts, etc.</p>
+                                </div>
+                            </div>
+                            <div class="sliderfooter">
+                                <p>T&C's Apply</p>
+                                <p style="color:rgb(0,140,255); font-weight: bold;"> BOOK NOW</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="columnFlex">
+                        <div class="card offerCards">
+                            <div class="cardInnerInfo">
+                                <img src="https://promos.makemytrip.com/notification/xhdpi//Desktop_HoneymoonPackages_12Oct.jpg?im=Resize=(134,134)"
+                                    height="134" width="134" alt="" loading="lazy">
+                                <div>
+                                    <p style="margin-bottom: 0; font-size:18px; font-weight: bold;">Introducing:</p>
+                                    <hr
+                                        style="width:33px; background-color: red; height: 2px; border: none; margin-left: 0px;">
+                                    <p style="margin-top: 0; font-size:16px;">MakeMyTrip Honeymoon Packages that
+                                        #PromiseToWow</p>
+                                </div>
+                            </div>
+                            <div class="sliderfooter">
+                                <p>T&C's Apply</p>
+                                <p style="color:rgb(0,140,255); font-weight: bold;"> BOOK NOW</p>
+                            </div>
+                        </div>
+                        <div class="card offerCards">
+                            <div class="cardInnerInfo">
+                                <img src="https://promos.makemytrip.com/notification/xhdpi//Desktop-LongWeekend-9Mar@2x.jpg?im=Resize=(134,134)"
+                                    height="134" width="134" alt="" loading="lazy">
+                                <div>
+                                    <p style="margin-bottom: 0; font-size:18px; font-weight: bold;">Presenting Long
+                                        Weekend Holidays Mania:</p>
+                                    <hr
+                                        style="width:33px; background-color: red; height: 2px; border: none; margin-left: 0px;">
+                                    <p style="margin-top: 0; font-size:16px;">Grab FLAT 30% OFF* on holiday packages.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="sliderfooter">
+                                <p>T&C's Apply</p>
+                                <p style="color:rgb(0,140,255); font-weight: bold;"> BOOK NOW</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="columnFlex">
+                        <div class="card offerCards">
+                            <div class="cardInnerInfo">
+                                <img src="https://promos.makemytrip.com/notification/xhdpi//Desktop_Pilgrimage_19July.jpg?im=Resize=(134,134)"
+                                    height="134" width="134" alt="" loading="lazy">
+                                <div>
+                                    <p style="margin-bottom: 0; font-size:18px; font-weight: bold;">For a Peaceful,
+                                        Spiritual Break:</p>
+                                    <hr
+                                        style="width:33px; background-color: red; height: 2px; border: none; margin-left: 0px;">
+                                    <p style="margin-top: 0; font-size:16px;">Grab up to 30% OFF* on our
+                                        specially-curated pilgrimage holiday packages.</p>
+                                </div>
+                            </div>
+                            <div class="sliderfooter">
+                                <p>T&C's Apply</p>
+                                <p style="color:rgb(0,140,255); font-weight: bold;"> BOOK NOW</p>
+                            </div>
+                        </div>
+
+                        <div class="card offerCards">
+                            <div class="cardInnerInfo">
+                                <img src="https://promos.makemytrip.com/notification/xhdpi//Desktop_Wildlife_22Aug@2x.jpg?im=Resize=(134,134)"
+                                    height="134" width="134" alt="" loading="lazy">
+                                <div>
+                                    <p style="margin-bottom: 0; font-size:18px; font-weight: bold;">For a Thrilling
+                                        Escape into the Wild:</p>
+                                    <hr
+                                        style="width:33px; background-color: red; height: 2px; border: none; margin-left: 0px;">
+                                    <p style="margin-top: 0; font-size:16px;">Grab up to 30% OFF* on our
+                                        specially-curated wildlife holiday packages.</p>
+                                </div>
+                            </div>
+                            <div class="sliderfooter">
+                                <p>T&C's Apply</p>
+                                <p style="color:rgb(0,140,255); font-weight: bold;"> BOOK NOW</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="columnFlex">
+                        <div class="card offerCards">
+                            <div class="cardInnerInfo">
+                                <img src="https://promos.makemytrip.com/notification/xhdpi//116X116-kotak-holidays-03082023.jpg?im=Resize=(134,134)"
+                                    height="134" width="134" alt="" loading="lazy">
+                                <div>
+                                    <p style="margin-bottom: 0; font-size:18px; font-weight: bold;">Grab FLAT 30% OFF*
+                                        on Holiday Packages</p>
+                                    <hr
+                                        style="width:33px; background-color: red; height: 2px; border: none; margin-left: 0px;">
+                                    <p style="margin-top: 0; font-size:16px;">Valid on Kotak Bank Credit Cards.</p>
+                                </div>
+                            </div>
+                            <div class="sliderfooter">
+                                <p>T&C's Apply</p>
+                                <p style="color:rgb(0,140,255); font-weight: bold;"> BOOK NOW</p>
+                            </div>
+                        </div>
+                        <div class="card offerCards">
+                            <div class="cardInnerInfo">
+                                <img src="https://promos.makemytrip.com/notification/xhdpi//icici-116x116-09022023.jpg?im=Resize=(134,134)"
+                                    height="134" width="134" alt="" loading="lazy">
+                                <div>
+                                    <p style="margin-bottom: 0; font-size:18px; font-weight: bold;">SPEND. EARN. TRAVEL.
+                                        With MakeMyTrip ICICI Bank Cr...</p>
+                                    <hr
+                                        style="width:33px; background-color: red; height: 2px; border: none; margin-left: 0px;">
+                                    <p style="margin-top: 0; font-size:16px;">Sign up today & enjoy benefits worth more
+                                        than Rs. 90,000*.</p>
+                                </div>
+                            </div>
+                            <div class="sliderfooter">
+                                <p>T&C's Apply</p>
+                                <p style="color:rgb(0,140,255); font-weight: bold;"> BOOK NOW</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Europe Group Tour -->
+        <section id="europe">
+            <div class="card europeFlex">
+                <div>
+                    <h2 class='europeHeader' style='font-size:62px; color:white'>Europe Group Tour</h2>
+                </div>
+                <div class="cards" style="margin-left:180px;">
+                    <div class="card business">
+                        <img src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/phonixImages/Honeymoon_category.jpg?crop=188:139&amp;downsize=188:139"
+                            alt="" style="height:150px;">
+                        <p class="details" style="color:white">Budget</p>
+                        <p>Starting at &#8377;1,62,000 Per person </p>
+                    </div>
+                    <div class="card"><img style='height:200px;'
+                            src="https://platforms.makemytrip.com/contents/c75f9aae-1a41-491d-8147-153f45d6149c"
+                            alt="ads by MMT"></div>
+                    <div class="card business">
+                        <img src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/phonixImages/Honeymoon_category.jpg?crop=188:139&amp;downsize=188:139"
+                            alt="" style="height:150px;">
+                        <p class="details" style="color:white">Premium</p>
+                        <p>Starting at &#8377;1,89,000 Per person </p>
+                    </div>
+                    <div class="card"><img style='height:200px;'
+                            src="https://platforms.makemytrip.com/contents/c75f9aae-1a41-491d-8147-153f45d6149c"
+                            alt="ads by MMT"></div>
+                    <div class="card business">
+                        <img src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/phonixImages/Honeymoon_category.jpg?crop=188:139&amp;downsize=188:139"
+                            alt="" style="height:150px;">
+                        <p class="details" style="color:white">Premium Exclusive</p>
+                        <p>Starting at &#8377;2,22,000 Per person </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- packages -->
+        <section id="package">
+            <div class="card packageList">
+                <div class="cityAndPackage">
+                    <img src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/4308/Picturesque%20Houseboat%20on%20Dal%20Lake.jpg?crop=50:50&downsize=50:50"
+                        alt="">
+                        <div class="packageDetails" style="line-height: 0.8; margin-left:10px;">
+                            <p style="font-size: 18px; font-weight: bold; margin-bottom:0px;margin-top: 0; ">Kashmir</p>
+                            <p style="margin-top:10px;">
+                                <a href="">Kashmir Tour Packages</a>,
+                                <a href="">Kashmir Tourism</a>,
+                                <a href="">Kashmir Homeymoon Packages</a>
+                            </p>
+                        </div>
+                </div>
+
+                <div class="cityAndPackage">
+                    <img src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/3872/Havelock_2.jpg?crop=50:50&downsize=50:50"
+                        alt="">
+                        <div class="packageDetails" style="line-height: 0.8; margin-left:10px;">
+                            <p style="font-size: 18px; font-weight: bold; margin-bottom:0px;margin-top: 0; ">Andaman</p>
+                            <p style="margin-top:10px;">
+                                <a href="">Andaman Tour Packages</a>,
+                                <a href="">Andaman Tourism</a>,
+                                <a href="">Andaman Homeymoon Packages</a>
+                            </p>
+                        </div>
+                </div>
+
+                <div class="cityAndPackage">
+                    <img src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/1185/leh01.jpg?crop=50:50&downsize=50:50"
+                        alt="">
+                        <div class="packageDetails" style="line-height: 0.8; margin-left:10px;">
+                            <p style="font-size: 18px; font-weight: bold; margin-bottom:0px;margin-top: 0; ">Ladakh</p>
+                            <p style="margin-top:10px;">
+                                <a href="">Ladakh Tour Packages</a>,
+                                <a href="">Ladakh Tourism</a>,
+                                <a href="">Ladakh Homeymoon Packages</a>
+                            </p>
+                        </div>
+                </div>
+
+                <div class="cityAndPackage">
+                    <img src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/1185/leh01.jpg?crop=50:50&downsize=50:50"
+                        alt="">
+                        <div class="packageDetails" style="line-height: 0.8; margin-left:10px;">
+                            <p style="font-size: 18px; font-weight: bold; margin-bottom:0px;margin-top: 0; ">North East</p>
+                            <p style="margin-top:10px;">
+                                <a href="">North-East Tour Packages</a>,
+                                <a href="">North-East Tourism</a>,
+                                <a href="">North-East Homeymoon Packages</a>
+                            </p>
+                        </div>
+                </div>
+
+                <div class="cityAndPackage">
+                    <img src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/1328/Y.jpg?crop=50:50&downsize=50:50"
+                        alt="">
+                        <div class="packageDetails" style="line-height: 0.8; margin-left:10px;">
+                            <p style="font-size: 18px; font-weight: bold; margin-bottom:0px;margin-top: 0; ">Goa</p>
+                            <p style="margin-top:10px;">
+                                <a href="">Goa Tour Packages</a>,
+                                <a href="">Goa Tourism</a>,
+                                <a href="">Goa Homeymoon Packages</a>
+                            </p>
+                        </div>
+                </div>
+
+                <div class="cityAndPackage">
+                    <img src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/1369/Serene%20Kerala.jpg?crop=50:50&downsize=50:50"
+                        alt="">
+                        <div class="packageDetails" style="line-height: 0.8; margin-left:10px;">
+                            <p style="font-size: 18px; font-weight: bold; margin-bottom:0px;margin-top: 0; ">Kerela</p>
+                            <p style="margin-top:10px;">
+                                <a href="">Kerela Tour Packages</a>,
+                                <a href="">Kerela Tourism</a>,
+                                <a href="">Kerela Homeymoon Packages</a>
+                            </p>
+                        </div>
+                </div>
+
+                <div class="cityAndPackage">
+                    <img src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/1993/Aerial%20view%20of%20Paradise%20Island%20Resort.jpg?crop=50:50&downsize=50:50"
+                        alt="">
+                        <div class="packageDetails" style="line-height: 0.8; margin-left:10px;">
+                            <p style="font-size: 18px; font-weight: bold; margin-bottom:0px;margin-top: 0; ">Maldives</p>
+                            <p style="margin-top:10px;">
+                                <a href="">Maldives Tour Packages</a>,
+                                <a href="">Maldives Tourism</a>,
+                                <a href="">Maldives Homeymoon Packages</a>
+                            </p>
+                        </div>
+                </div>
+
+                <div class="cityAndPackage">
+                    <img src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/2887/Colombo1.jpg?crop=50:50&downsize=50:50"
+                        alt="">
+                        <div class="packageDetails" style="line-height: 0.8; margin-left:10px;">
+                            <p style="font-size: 18px; font-weight: bold; margin-bottom:0px;margin-top: 0; ">SriLanka</p>
+                            <p style="margin-top:10px;">
+                                <a href="">SriLanka Tour Packages</a>,
+                                <a href="">SriLanka Tourism</a>,
+                                <a href="">SriLanka Homeymoon Packages</a>
+                            </p>
+                        </div>
+                </div>
+
+                <div class="cityAndPackage">
+                    <img src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/3147/Dubai-Marina-skyline.jpg?crop=50:50&downsize=50:50"
+                        alt="">
+                    <div class="packageDetails" style="line-height: 0.8; margin-left:10px;">
+                        <p style="font-size: 18px; font-weight: bold; margin-bottom:0px;margin-top: 0; ">Dubai</p>
+                        <p style="margin-top:10px;">
+                            <a href="">Dubai Tour Packages</a>,
+                            <a href="">Dubai Tourism</a>,
+                            <a href="">Dubai Homeymoon Packages</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- product offering -->
+        <section id="productOffering">
+            <div class="offeringDetails">
+                <p style="font-size:12px;font-weight: bold;">PRODUCT OFFERING</p>
+                <ul style="font-size:14px">
+                    <li><a>Flights</a></li>,
+                    <li><a>International Flights</a></li>,
+                    <li><a>Charter Flights</a></li>,
+                    <li><a>Hotels</a></li>,
+                    <li><a>International Hotels</a></li>,
+                    <li><a>Homestays and Villas</a></li>,
+                    <li><a>Activities</a></li>,
+                    <li><a>Holidays In India</a></li>,
+                    <li><a>International </a></li>,
+                    <li><a>Book Hotels From UAE</a></li>,
+                    <li><a>myBiz for Corporate Travel</a></li>,
+                    <li><a>Book Online Cabs</a></li>,
+                    <li><a>Book Bus Tickets</a></li>,
+                    <li><a>Book Train Tickets</a></li>,
+                    <li><a>Cheap Tickets to India</a></li>,
+                    <li><a>Book Flights From US</a></li>,
+                    <li><a>Book Flights From UAE</a></li>,
+                    <li><a>Trip Planner</a></li>,
+                    <li><a>Gift Cards</a></li>,
+                    <li><a>Trip Money</a></li>,
+                    <li><a>Trip Ideas</a></li>,
+                    <li><a>Travel Blog</a></li>,
+                    <li><a>PNR Status</a></li>,
+                    <li><a>MakeMyTrip Advertising Solutions</a></li>,
+                    <li><a>One Way Cab</a></li>
+                </ul>
+
+            </div>
+
+            <div class="offeringDetails">
+                <p style="font-size:12px;font-weight: bold;">MAKE MY TRIP</p>
+                <ul style="font-size:14px">
+                    <li><a>About Us</a></li>,
+                    <li><a> Investor Relations</a></li>,
+                    <li><a> Careers</a></li>,
+                    <li><a> MMT Foundation</a></li>,
+                    <li><a> CSR Policy</a></li>,
+                    <li><a> myPartner - Travel Agent Portal</a></li>,
+                    <li><a> Foreign Exchange</a></li>,
+                    <li><a> List your hotel</a></li>,
+                    <li><a> Partners- Redbus</a></li>,
+                    <li><a> Partners- Goibibo</a></li>,
+                    <li><a> Partners- BookMyForex</a></li>,
+                    <li><a> Advertise with Us</a></li>
+                </ul>
+
+            </div>
+
+            <div class="offeringDetails">
+                <p style="font-size:12px;font-weight: bold;">ABOUT THE SITE</p>
+                <ul style="font-size:14px">
+                    <li><a>Customer Support</a></li>,
+                    <li><a> Payment Security</a></li>,
+                    <li><a> Privacy Policy</a></li>,
+                    <li><a> Cookie Policy</a></li>,
+                    <li><a> User Agreement</a></li>,
+                    <li><a> Terms of Service</a></li>,
+                    <li><a> More Offices</a></li>,
+                    <li><a> Make A Payment</a></li>,
+                    <li><a> Work From Home</a></li>
+                </ul>
+            </div>
+
+            <div class="offeringDetails">
+                <p style="font-size:12px;font-weight: bold;">IMPORTANT LINKS</p>
+                <ul style="font-size:14px">
+                    <li><a>Ladakh Tour Packages</a></li>,
+<li><a> Andaman Tour Packages</a></li>,
+<li><a> Kashmir Tour Packages</a></li>,
+<li><a> Gujarat Tourism</a></li>,
+<li><a> North East Tour Package</a></li>,
+<li><a> Golden Triangle Tour Packages</a></li>,
+<li><a> Luxury Tour packages</a></li>,
+<li><a> South India Tour Packages</a></li>,
+<li><a> International Honeymoon Packages</a></li>,
+<li><a> Andaman Honeymoon Packages</a></li>,
+<li><a> Kerala Honeymoon Packages</a></li>,
+<li><a> Mauritius Honeymoon Packages</a></li>,
+<li><a> Maldives Honeymoon Packages</a></li>,
+<li><a> Bali Honeymoon Packages</a></li>,
+<li><a> Europe Honeymoon Packages</a></li>,
+<li><a> Dubai Honeymoon Packages</a></li>,
+<li><a> Singapore Honeymoon Packages</a></li>,
+<li><a> Thailand Honeymoon Packages</a></li>,
+<li><a> Manali Honeymoon Packages</a></li>,
+<li><a> Goa Honeymoon Packages</a></li>,
+<li><a> Ooty Honeymoon Packages</a></li>,
+<li><a> Shimla Honeymoon Packages</a></li>,
+<li><a> Munnar Honeymoon Packages</a></li>,
+<li><a> Kashmir Honeymoon Packages</a></li>,
+<li><a> Coorg Honeymoon Packages</a></li>,
+<li><a> Switzerland Honeymoon Packages</a></li>
+                </ul>
+            </div>
+
+            <div class="offeringDetails">
+                <p style="font-size:12px;font-weight: bold;">QUICK LINKS</p>
+                <ul style="font-size:14px">
+                    H<li><a>oneymoon Packages</a></li>,
+                    <li><a>Family Packages</a></li>,
+                    <li><a>Beach Packages</a></li>,
+                    <li><a>Lakshadweep Tour Packages</a></li>,
+                    <li><a>Maldives Tour Packages</a></li>,
+                    <li><a>Singapore Tour Packages</a></li>,
+                    <li><a>Thailand Tour Packages</a></li>,
+                    <li><a>Mauritius Tour Packages</a></li>,
+                    <li><a>Bali Tour Packages</a></li>,
+                    <li><a>Switzerland Tour Packages</a></li>,
+                    <li><a>Dubai Tour Packages</a></li>,
+                    <li><a>Srilanka Tour Packages</a></li>,
+                    <li><a>Europe Tour Packages</a></li>,
+                    <li><a>Russia Tour Packages</a></li>,
+                    <li><a>Bangkok Tour Packages</a></li>,
+                    <li><a>Bhutan Tour Packages</a></li>,
+                    <li><a>Nepal Tour Packages</a></li>,
+                    <li><a>Greece Tour Packages</a></li>,
+                    <li><a>Shimla Tour Packages</a></li>,
+                    <li><a>Coorg Tour Packages</a></li>,
+                    <li><a>Kerala Tour Packages</a></li>,
+                    <li><a>Goa Tour Packages</a></li>,
+                    <li><a>Manali Tour Packages</a></li>,
+                    <li><a>Ooty Tour Packages</a></li>,
+                    <li><a>Uttarakhand Tour Packages</a></li>,
+                    <li><a>Nainital Tour Packages</a></li>,
+                    <li><a>Sikkim Tour Packages</a></li>,
+                    <li><a>Rajasthan Tour Packages</a></li>,
+                    <li><a>Himachal Tour Packages</a></li>
+                </ul>
+            </div>
+
+
+        </section>
+
+        <!-- questions -->
+        <section id="questions">
+            <div class="makeMyTrip">
+                <div>
+                    <h2 style="font-weight: bold; font-size:16px;">Why Book Holidays with MakeMyTrip?</h2>
+                    <div style="font-size: 14px;">MakeMyTrip.com, India's leading online travel company, has a profound
+                        understanding of Indian consumers travel needs and preferences.
+                        It offers a wide range of holiday packages in India and across the world, catering to various
+                        segments of travellers.
+                        While the dynamic or customized tour and travel packages give consumers an option to create and
+                        design their own holiday,
+                        the fixed departure holiday packages have a pre-designed itinerary;
+                        thus ensuring there is something to meet the holiday needs of every kind of traveller.</div>
+                </div>
+
+                <div>
+                    <h2 style="font-weight: bold; font-size:16px;">What does MakeMyTrip Holidays offer?</h2>
+                    <div style="font-size: 14px;">MakeMyTrip offers a hassle-free holiday wherein all your travel needs
+                        are taken care of. Be it your accommodation in comfortable hotels, convenient transfers, varied
+                        sightseeing options and an array of activities to choose from, delectable meals and niche
+                        experiences - the holiday packages are designed such to offer you an unparalleled experience. Be
+                        it popular destinations such as Andaman, Kerala, Rajasthan and Kashmir, or more offbeat ones
+                        like North East, Ladakh and Uttarakhand, there are tailor-made packages for destinations from
+                        all over India. From distinctive honeymoon packages to exclusive tour packages for women, from
+                        itineraries designed for solo travellers, families with kids and for those who are young at
+                        heart - MakeMyTrip has an answer to all our holiday needs.</div>
+                </div>
+                <hr>
+
+                <div>
+                    <h2 style="font-weight: bold; font-size:16px;">How to book Holidays with MakeMyTrip?</h2>
+                    <div style="font-size: 14px;">The user-friendly MakeMyTrip App and website make it easy for
+                        enthusiastic travellers to plan and book a holiday simply at the click of a button. Just use the
+                        filters and select the city you want to visit along with your travel dates, travel duration,
+                        specific preferences, if any, on hotels, kind of holiday, etc. and MakeMyTrip offers you an
+                        extensive list of holiday packages to choose from. Pick any package that meets your needs. Else,
+                        you could also choose hotels of your choice, add sightseeing and activities to your list and
+                        have a package ready that best suits your requirement. You can choose to book your tour packages
+                        offline by dropping a query or chatting with our travel experts for immediate support. With
+                        MakeMyTrip, planning and buying your ideal holiday has never been easier.</div>
+                </div>
+
+                <div>
+                    <h2 style="font-weight: bold; font-size:16px;">The Ultimate Guide to Holidaying in India</h2>
+                    <div style="font-size: 14px;">
+                        <div>
+                            India is a land of history and diversity. As a country that enjoys nature's bounty in the
+                            form of gorgeous beaches, majestic mountains, colourful deserts and lush forests, it has
+                            attracted tourists for centuries now. It's no wonder that India <b>holiday packages</b> are
+                            so popular among travellers today. So, if you are planning to spend your holidays in India,
+                            we have done the homework for you. To make your holidays unforgettable, read on to know more
+                            about this fascinating country! Plan your <b>India tours</b> to various exciting
+                            destinations in the country with ease.
+                        </div>
+                        <br>
+                        <div>
+                            For a country as old as India, there is a place or a city for everyone. And almost all
+                            <b>India holiday packages</b> will give you a glimpse of this. For the spiritual traveller,
+                            there is Varanasi; for the offbeat adventurer, there is Ladakh, Arunachal Pradesh & more; if
+                            you are looking for some beach vibes, there are Goa and Lakshadweep. You can choose what you
+                            want from the vast list of <b>India tour packages</b>. So plan your holidays in India by
+                            booking incredible <b>all India tour packages</b> online. You can make the most out of your
+                            <b>India tours</b> by choosing <b>holiday packages</b> that are perfect for you.
+                        </div>
+                    </div>
+                </div>
+
+                <hr>
+
+                <h2>Best Destinations to Visit in India</h2>
+
+                <hr>
+                <div>
+                    <h2 style="font-weight: normal; font-size:16px;"><b>Goa</b></h2>
+                    <div style="font-size: 14px;">The unofficial party place of India, Goa is more than that. It has a great legacy, history and culture that are yet to be explored. But if beaches are what you are looking for, then the state has that too. And that's why, India tours to Goa are a great option to explore the place, according to your interests. Goa holiday packages are also popular because Goa is one of the top places in the world when it comes to nightlife. Find several exciting tour packages and other India holiday packages that let you try Goa's melange of watersports and other fun activities.
+                        <div>
+                            <p><b>Best Time to Visit:</b> November to February</p>
+                            <p><b>Best Places to Visit:</b></p>
+                            <ul>
+                                <li>Calangute</li>
+                                <li>Baga</li>
+                                <li>Anjuna</li>
+                                <li>Miramar</li>
+                                <li>Palolem</li>
+                                <li>Panjim</li>
+                            </ul>
+                            <div>You can also include the offbeat Patnem Beach in your holiday tour packages, since it was listed amongst one of Asia’s top 20 beaches.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <h2 style="font-weight: normal; font-size:16px;"><b>Kerela</b></h2>
+                    <div style="font-size: 14px;">God's own country, Kerala has been a popular tourist destination in India. You can explore it all with India tours to this marvellous destination. With suitable tour packages, you can discover scenic seaside destinations and hill stations in Kerala.
+                        <div>
+                            <p><b>Best Time to Visit:</b>September to March</p>
+                            <p><b>Best Places to Visit:</b></p>
+                            <ul>
+                                <li>Sree Padmanabhaswamy Temple</li>
+                                <li>Francis CSI Church</li>
+                                <li>Paradesi Synagogue</li>
+                                <li>Eravikulam National Park</li>
+                                <li>Varkala Beach</li>
+                                <li>Athirappilly Waterfalls</li>
+                            </ul>
+                            <div>If you are planning India holiday packages in the state, then you must not miss out on its lip-smacking cuisine as well. Check your holiday tour packages and book accordingly.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div>
+                    <h2 style="font-weight: normal; font-size:16px;"><b>Kashmir</b></h2>
+                    <div style="font-size: 14px;">For decades, the Kashmir valley has attracted tourists from all over
+                        the world. If you can't plan a vacation on your own, you should check out India tours for
+                        Kashmir to help you with an unforgettable holiday. With the right all India tour packages, you
+                        can discover lush green valleys, snow-covered peaks and gorgeous wildlife. Your trip packages
+                        must include the Chenab, Sindh and Lidder valleys. Don't forget to buy a world-famous Kashmiri
+                        shawl and one-of-a-kind handicrafts for your loved ones.
+                        <div>
+                            <p><b>Best Time to Visit:</b> March to August</p>
+                            <p><b>Best Places to Visit:</b></p>
+                            <ul>
+                                <li>Gulmarg</li>
+                                <li>Srinagar</li>
+                                <li>Dal Lake</li>
+                                <li>Sonamarg</li>
+                                <li>Indira Gandhi Tulip Garden</li>
+                            </ul>
+                            <div>These places should be included in the best tour packages for Kashmir. Find travel
+                                packages to suit all needs and you can also find exquisite honeymoon packages, since
+                                Kashmir is an ethereal destination for a picture-perfect Indian honeymoon.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <h2 style="font-weight: normal; font-size:16px;"><b>Rajasthan</b></h2>
+                    <div style="font-size: 14px;">If you are looking for mesmerising India tours, then Rajasthan is undoubtedly your destination of choice. From its sprawling forts and historical landmarks to its signature architecture, beautiful lakes and rich culinary traditions, the state is a must-try for the best tour packages in the country. Your trip packages should include visits to several historical monuments.
+                        <div>
+                            <p><b>Best Time to Visit:</b> November to February</p>
+                            <p><b>Best Places to Visit:</b></p>
+                            <ul>
+                                <li>Jaipur</li>
+                                <li>Udaipur</li>
+                                <li>Chittor</li>
+                                <li>Jodhapur</li>
+                                <li>Jaisalmer</li>
+                                <li>Mount Abu</li>
+                            </ul>
+                            <div>When in Rajasthan, make sure that your travel packages give you ample time for some local shopping and dining. Feast on delicacies like Dal Baati Churma and Laal Maas during your Rajasthan tours.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div>
+                    <h2 style="font-weight: normal; font-size:16px;"><b>Sikkim</b></h2>
+                    <div style="font-size: 14px;">If you are looking for an Indian destination that is fit for a world tour package, then look no further than Sikkim. You can plan amazing India tours to this mountain marvel, which is home to the country's highest peak, Kanchenjunga. It is certainly a great destination for quality international tour packages. Check out Sikkim tour packages for a trip to this charming Indian state.
+                        <div>
+                            <p><b>Best Time to Visit:</b> March to May</p>
+                            <p><b>Best Places to Visit:</b></p>
+                            <ul>
+                                <li>Gangtok</li>
+                                <li>Nathu La Pass</li>
+                                <li>Tsomgo Lake</li>
+                                <li>Rumtek Monastery</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <h2 style="font-weight: normal; font-size:16px;"><b>Shimla</b></h2>
+                    <div style="font-size: 14px;">Shimla, the Queen of the Hills, is the stuff that dreamy India tours are made of! Shimla is a great destination for international honeymoon packages, with its pristine landscape, mountains, greenery and romantic weather. A Shimla tour also means checking out the delightful cafes and eateries here.
+                        <div>
+                            <p><b>Best Time to Visit:</b> May to June/December to January</p>
+                            <p><b>Best Places to Visit:</b></p>
+                            <ul>
+                                <li>The Ridge</li>
+                                <li>Green Valley</li>
+                                <li>Mall Road</li>
+                                <li>Jakhoo Hill</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div>
+                    <h2 style="font-weight: normal; font-size:16px;"><b>Uttarakhand</b></h2>
+                    <div style="font-size: 14px;">There are many India tours which keep Uttarakhand at the forefront and why not? The state is blessed with unmatched natural beauty. Find Uttarakhand tour packages covering several popular destinations. The state offers the right mix of spirituality, trekking, adventure, beautiful mountain landscapes and welcoming locals.
+                        <div>
+                            <p><b>Best Time to Visit:</b> March to April/September to October</p>
+                            <p><b>Best Places to Visit:</b></p>
+                            <ul>
+                                <li>Dehradun</li>
+                                <li>Mussoorie</li>
+                                <li>Nainital</li>
+                                <li>Auli</li>
+                                <li>Rishikesh</li>
+                            </ul>
+                            <div>These places should be included in the best tour packages for Kashmir. Find travel
+                                packages to suit all needs and you can also find exquisite honeymoon packages, since
+                                Kashmir is an ethereal destination for a picture-perfect Indian honeymoon.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <h2 style="font-weight: normal; font-size:16px;"><b>Ooty</b></h2>
+                    <div style="font-size: 14px;">Those looking for soothing India tours may also consider Ooty. Your Ooty tour should include some of the region’s signature attractions. Ooty is also famous for its tea and coffee plantations. It is also one of the top choices for international honeymoon packages.
+                        <div>
+                            <p><b>Best Time to Visit:</b> October to June</p>
+                            <p><b>Best Places to Visit:</b></p>
+                            <ul>
+                                <li>Ooty Botanical Garden</li>
+                                <li>Emerald Lake</li>
+                                <li>Ooty Lake</li>
+                                <li>Doddabetta Peak</li>
+                                <li>Kalhatty Waterfalls</li>
+                                <li>Deer Park</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div>
+                    <h2 style="font-weight: normal; font-size:16px;"><b>Nainital</b></h2>
+                    <div style="font-size: 14px;">India tours are also incomplete without a trip to beautiful Nainital. This resort town in Uttarakhand lies at 2,000 meters above sea level. Enjoy the cable car rides as part of your Nainital tour package along with the stunning views of Nanda Devi (the highest mountain peak in Uttarakhand) in Nainital.
+                        <div>
+                            <p><b>Best Time to Visit:</b> March to June</p>
+                            <p><b>Best Places to Visit:</b></p>
+                            <ul>
+                                <li>Nainital Lake</li>
+                                <li>Naina Devi Hindu Temple</li>
+                                <li>Snow View Observation Point</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <h2 style="font-weight: normal; font-size:16px;"><b>Manali</b></h2>
+                    <div style="font-size: 14px;">Manali is synonymous with scintillating India tours, encompassing romantic honeymoons, camping, hiking, skiing at the Solang Valley and trekking at the Parvati Valley. It is also famous for rafting, paragliding and other adventure activities. The snow-capped mountains, a raft of popular eateries and cafes and of course, its uniquely vibrant nightlife make a Manali trip worthwhile.
+                        <div>
+                            <p><b>Best Time to Visit:</b> March to June</p>
+                            <p><b>Best Places to Visit:</b></p>
+                            <ul>
+                                <li>Hadimba Temple</li>
+                                <li>Museum of Himachal Culture & Folk Art</li>
+                                <li>Van Vihar National Park</li>
+                                <li>Jogini Waterfall</li>
+                                <li>Solang Valley</li>
+                            </ul>
+    
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div style="font-size:larger">
+                <i class="fa-brands fa-twitter" style="margin-right:30px;"></i>
+                <i class="fa-brands fa-facebook-f"></i>
+            </div>
+            <div>
+                <h5 style="font-size:18px; margin-bottom:5px;">&copy;2023 MAKEMYTRIP PVT. LTD.</h5>
+                <p style="font-size:14px; margin-top:0px; text-align: right;">Country <b style="font-size:16px;">India
+                        USA UAE</b></p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

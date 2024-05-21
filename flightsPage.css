@@ -1,0 +1,160 @@
+
+#radioButtons {
+    font-size: 16px;
+}
+
+#radioButtons a{
+    text-decoration: none;
+    color: black;
+}
+
+.trending {
+    margin-top: -10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: last baseline;
+}
+
+.trending>p {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.trending div{
+    font-size: 13px;
+    margin: 2px;
+    background-color: rgb(216, 216, 216);
+    border-radius: 5px;
+    width: fit-content;
+    padding: 3px;
+    
+}
+
+.trending2 div{
+    display: flex;
+    justify-content: flex-start;
+    height: 30px;
+    width:100px;
+}
+
+
+
+.boxes{
+    width:60%;
+    margin: auto;
+    margin-bottom: 0px;
+    top:-20px;
+    position: relative;
+      border: none; 
+      padding-left: 40px; 
+      padding-right: 40px; 
+      padding-top: 10px; 
+      padding-bottom: 20px;
+      display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    border: 1px solid rgb(216, 216, 216);
+    height: fit-content;
+}
+
+
+.boxes div {
+    padding-left: 12px;
+    display: flex;
+}
+
+.boxes div p {
+    margin-bottom: -19px;
+    font-size: 14px;
+    display: flex;
+}
+
+input[type=radio] {
+    accent-color: #008CFF; ;
+ }
+
+
+/* planning */
+#planning {
+    display: flex;
+}
+
+.planningSection {
+    display: flex;
+    width: 30%;
+    margin-right: 8px;
+}
+
+.planningSection img {
+    margin-left: 10px;
+}
+
+/* dowload */
+
+.downloadFlex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.downloadTop {
+    display: flex;
+
+}
+
+
+.contactDetails {
+    margin-left: 10px;
+    border: 2px solid black;
+    padding: 5px;
+    width: 350px;
+    margin-top: 30px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.contacts button {
+    color: rgb(0, 140, 255);
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-bottom: 8px;
+    font-weight: bold;
+    border: 2px solid black;
+    width: 150px;
+    background-color: white;
+}
+
+.downloadOption{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+   
+}
+
+.flexD{
+    display: flex;
+    margin-top: 35px;
+}
+
+/* trip money */
+#tripMoney{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+    border:2px solid  rgb(255, 203, 202);
+}
+#tripMoney img{
+    margin-top: 10px;
+}
+#tripMoney div{
+    margin-left: 20px;
+}
+
+#tripMoney>p{
+    color: rgb(0, 140, 255);
+   margin-left: 400px;
+    padding-top: 15px;
+    padding-bottom: 8px;
+    font-weight: bold;
+}
+

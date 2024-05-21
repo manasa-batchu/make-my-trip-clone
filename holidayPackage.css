@@ -1,0 +1,447 @@
+.targetBlock{
+    /* position: absolute;
+top:15%;
+left:13%; */
+font-size: 18px;
+height: auto;
+position: absolute;
+top:18%;
+left:10%;
+
+
+
+} 
+
+
+
+
+.targetBlock>ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 4%;
+    background-color: rgb(234,245,255);
+    margin:-18px;
+    margin-bottom: 10px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.targetBlock>ul >li{
+ padding-top:15px;
+ padding-bottom: 15px;
+ padding-left:10px;
+ padding-right:10px;
+ text-align: center;
+ display: flex;
+ width:18%;
+ font-weight: bold;
+}
+
+.targetBlock ul li img{
+ margin-right: 5px;
+}
+
+.targetBlock ul li a{
+ margin-top: 5px;
+}
+
+.targetBlock ul a{
+    text-decoration: none;
+    color:rgb(74,74,74);
+    margin-top: -10px;
+}
+   #payLater,#honeymoon,#villas,#easyVisa,:target ~ .default{
+       display: none;
+       height: 0;
+    overflow:hidden;
+   }
+   .default,#search:target,#payLater:target,#honeymoon:target,#villas:target,#easyVisa:target{
+       display:block;
+       height: auto;
+       margin-top: -270px;
+       padding-top: 270px;
+   }
+
+
+
+   .SearchBox{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    border: 1px solid rgb(216,216,216);
+    height: 100px;
+   }
+
+   .SearchBox div{
+    padding-left: 15px;
+   }
+
+   .SearchBox div p{
+    margin-bottom: -19px;
+   }
+
+  /* paylater */
+
+  .payLater{
+    display: flex;
+    padding-bottom: -30px;
+  }
+
+
+.payLater>h4{
+    color:rgb(49,165,255)
+}
+
+.payLater ul{
+    list-style: none;
+    margin-right: 50px;
+}
+
+.payLater ul li{
+    margin-bottom: 10px;
+}
+
+.cityNamespayLater img{
+    height:88px;
+    width:88px;
+    border-radius: 5px;
+}
+
+.payLaterContent{
+    display: flex;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+.cityNamespayLater img{
+    margin-right: 50px;
+}
+
+.payLaterContent .cityNamespayLater h4{
+    margin-top: 0px;
+}
+
+
+  /* special deals section and jackpot deals section */
+   #specialDeals,#jackpotDeals,#international,#exploreUnexplore,#europe,.targetBlock{
+    width:80%;
+    margin: auto;
+    margin-bottom: 40px;
+   }
+
+   #city{
+    display: flex;
+    justify-content: space-between;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    overflow-y: hidden;
+   }
+
+.cityName{
+    position: relative;
+    margin:5px;
+}
+
+.cityName img,.cityName1 img{
+    border-radius: 5%;
+    margin:5px;
+}
+
+#city1::-webkit-scrollbar ,#city2::-webkit-scrollbar,#city::-webkit-scrollbar,#europe .cards::-webkit-scrollbar {
+    -webkit-appearance: none;
+ }
+
+   .cityDetails{
+     position: absolute;
+     bottom:0;
+     color:white;
+    font-size: 12px;
+    padding:8px;
+   } 
+
+   /* explore holiday section */
+   #exploreHoliday{
+    width:80%;
+    margin: auto;
+    margin-bottom: 40px;
+   }
+
+   #exploreHoliday>.card{
+    background: url('https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/phonixImages/CategorySectionBackground.png');
+    background-size: cover;
+   }
+   .imageClass{
+    display: flex;
+   }
+
+   .imageContent{
+  margin-top: 10%;
+   }
+
+   .imageClass img{
+    height:341px;
+    width:225px;
+   }
+
+   .imageContent p{
+    margin-bottom:5px;
+    margin-top:5px;
+    font-size: 17px;
+    font-weight: 700;
+   }
+
+   .exploreHolidayContainer{
+    display: flex;
+   }
+
+   .cards,.europeFlex{
+    display: flex;
+    align-items: flex-end;
+    margin: 10px;
+
+    justify-content: space-between;
+   }
+
+   .cards .card{
+width:170px;
+height:240px;
+margin-bottom:0px;
+padding: 0;
+height: fit-content;
+margin-right: 20px;
+   }
+
+   .cards .card img{
+    width:inherit;
+    padding: 0;
+    margin: 0;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+   }
+
+   .cards .card p{
+    color:#4a4a4a;
+    margin-bottom: 6px;
+    margin-top: 6px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+   }
+
+   .cards .card ul{
+    list-style: none;
+    padding: 0%;
+    margin: 2px;
+    text-align: center;
+   }
+
+   .cards .card ul li{
+    display: inline;
+    color:rgb(0,140,255);
+    border:1px solid rgb(0,140,255);
+    padding:2px;
+    font-size: 15px;
+    margin-left: 0px;
+   }
+
+   /* International */
+   
+   .cityDetails1{
+   font-size: 15px;
+   padding:8px;
+  } 
+  #city1,#city2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    overflow-y: hidden;
+   }
+
+
+   /* europe */
+   #europe> .card{
+
+    background: url(https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/phonixImages/BG_1200X429_21Nov.jpg?crop=1200:374&downsize=1200:374) 0% 0% / 100% 100%;
+    background-size: cover;
+
+   }
+
+.business{
+    position: relative;
+}
+
+.details{
+    position: absolute;
+    bottom:30%;
+   color: white;
+   font-weight: 200;
+   font-size: 12px;
+   right:35%;
+   padding:8px;
+}
+
+.europeHeader{
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 12px;
+    padding:14px;
+    width:345px;
+}
+
+#europe .cards{
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    overflow-y: hidden;
+}
+
+
+
+/* carousel */
+.frame img{
+    height:100%;
+    width:100%;
+}
+
+#frame {
+    margin: 0 auto;
+    height:350px;
+    width: 80%;
+    max-width: 100%;
+}
+
+#frame input[type=radio] {
+    
+    display: none;
+}
+
+#frame label {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#slides {
+    padding: 10px;
+    
+    position: relative;
+    z-index: 1;
+}
+
+#overflow {
+    width: 100%;
+    overflow: hidden;
+    height:300px
+}
+
+#frame1:checked~#slides .inner {
+    margin-left: 0;
+}
+
+#frame2:checked~#slides .inner {
+    margin-left: -100%;
+}
+
+#frame3:checked~#slides .inner {
+    margin-left: -200%;
+}
+
+#frame4:checked~#slides .inner {
+    margin-left: -300%;
+}
+
+#frame5:checked~#slides .inner {
+    margin-left: -400%;
+}
+
+#frame6:checked~#slides .inner {
+    margin-left: -500%;
+}
+
+#frame7:checked~#slides .inner {
+    margin-left: -600%;
+}
+
+#frame8:checked~#slides .inner {
+    margin-left: -700%;
+}
+#slides .inner {
+    transition: margin-left 800ms
+        cubic-bezier(0.770, 0.000, 0.175, 1.000);
+    width: 800%;
+    line-height: 0;
+    height: 300px;
+}
+
+#slides .frame {
+    width: 12.5%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: black;
+}
+
+#controls {
+    margin: -180px 0 0 0;
+    width: 100%;
+    height: 50px;
+    z-index: 3;
+    position: relative;
+}
+
+#controls label {
+    transition: opacity 0.2s ease-out;
+    display: none;
+    width: 50px;
+    height: 50px;
+    opacity: .4;
+}
+
+#controls label:hover {
+    opacity: 1;
+}
+
+/* active class for images*/
+#frame1:checked~#controls label:nth-child(2),
+#frame2:checked~#controls label:nth-child(3),
+#frame3:checked~#controls label:nth-child(1){
+    float: right;
+    margin: 0 -50px 0 0;
+    display: block;
+}
+
+/* active class for navigation button*/
+#frame1:checked~#controls label:nth-last-child(2),
+#frame2:checked~#controls label:nth-last-child(3),
+#frame3:checked~#controls label:nth-last-child(1){
+    float: left;
+    margin: 0 0 0 -50px;
+    display: block;
+}
+
+#bullets {
+    margin: 120px 0 0;
+    text-align: center;
+}
+
+#bullets label {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background: #ccc;
+    margin: 0 10px;
+}
+
+#frame1:checked~#bullets label:nth-child(1),
+#frame2:checked~#bullets label:nth-child(2),
+#frame3:checked~#bullets label:nth-child(3),
+#frame4:checked~#bullets label:nth-child(4),
+#frame5:checked~#bullets label:nth-child(5),
+#frame6:checked~#bullets label:nth-child(6),
+#frame7:checked~#bullets label:nth-child(7),
+#frame8:checked~#bullets label:nth-child(8){
+    background: #444;
+}

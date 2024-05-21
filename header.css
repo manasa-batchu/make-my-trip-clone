@@ -1,0 +1,40 @@
+.tableHeader{
+    width:80%;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: 5%;
+   }
+
+
+.tableHeader h1{
+    font-size: 16px;
+    font-weight: normal;
+    margin-top:35px;
+  text-align: center;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    border: 1px solid rgb(216, 216, 216);
+    height: 100px;
+    margin-bottom: 30px;
+}
+
+
+
+
+.box div {
+    padding-left: 15px;
+}
+
+.box div p {
+    margin-bottom: -19px;
+    font-size: 16px;
+    display: flex;
+}
+
+.box div h2 {
+    font-size: 30px;
+}
